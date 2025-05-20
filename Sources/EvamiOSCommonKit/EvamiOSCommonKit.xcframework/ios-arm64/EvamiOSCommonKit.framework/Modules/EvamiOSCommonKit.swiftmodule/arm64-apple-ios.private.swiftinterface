@@ -1,0 +1,481 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
+// swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EvamiOSCommonKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+import CoreData
+import CoreLocation
+import DeveloperToolsSupport
+@_exported import EvamiOSCommonKit
+import Foundation
+import Swift
+import SwiftUI
+import SystemConfiguration
+import UIKit
+import UserNotifications
+import UserNotificationsUI
+import WebKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+public enum NotificationPermissionStatusType : Swift.String {
+  case denied
+  case notDetermined
+  case authorized
+  case provisional
+  case ephemeral
+  case unknown
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension UIKit.UIDevice {
+  @_Concurrency.MainActor @preconcurrency public static let osVersion: Swift.String
+  @_Concurrency.MainActor @preconcurrency public static let modelName: Swift.String
+}
+public enum ReachabilityError : Swift.Error {
+  case failedToCreateWithAddress(Darwin.sockaddr, Swift.Int32)
+  case failedToCreateWithHostname(Swift.String, Swift.Int32)
+  case unableToSetCallback(Swift.Int32)
+  case unableToSetDispatchQueue(Swift.Int32)
+  case unableToGetFlags(Swift.Int32)
+}
+@available(*, unavailable, renamed: "Notification.Name.reachabilityChanged")
+public let ReachabilityChangedNotification: Foundation.NSNotification.Name
+extension Foundation.NSNotification.Name {
+  public static let reachabilityChanged: Foundation.Notification.Name
+}
+public class Reachability {
+  public typealias NetworkReachable = (EvamiOSCommonKit.Reachability) -> Swift.Void
+  public typealias NetworkUnreachable = (EvamiOSCommonKit.Reachability) -> Swift.Void
+  public enum Connection : Swift.CustomStringConvertible {
+    case unavailable, wifi, cellular
+    public var description: Swift.String {
+      get
+    }
+    @available(*, deprecated, renamed: "unavailable")
+    public static let none: EvamiOSCommonKit.Reachability.Connection
+    public static func == (a: EvamiOSCommonKit.Reachability.Connection, b: EvamiOSCommonKit.Reachability.Connection) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public var whenReachable: EvamiOSCommonKit.Reachability.NetworkReachable?
+  public var whenUnreachable: EvamiOSCommonKit.Reachability.NetworkUnreachable?
+  @available(*, deprecated, renamed: "allowsCellularConnection")
+  final public let reachableOnWWAN: Swift.Bool
+  public var allowsCellularConnection: Swift.Bool
+  public var notificationCenter: Foundation.NotificationCenter
+  @available(*, deprecated, renamed: "connection.description")
+  public var currentReachabilityString: Swift.String {
+    get
+  }
+  @available(*, unavailable, renamed: "connection")
+  public var currentReachabilityStatus: EvamiOSCommonKit.Reachability.Connection {
+    get
+  }
+  public var connection: EvamiOSCommonKit.Reachability.Connection {
+    get
+  }
+  required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  @objc deinit
+}
+extension EvamiOSCommonKit.Reachability {
+  public func startNotifier() throws
+  public func stopNotifier()
+  @available(*, deprecated, message: "Please use `connection != .none`")
+  public var isReachable: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .cellular`")
+  public var isReachableViaWWAN: Swift.Bool {
+    get
+  }
+  @available(*, deprecated, message: "Please use `connection == .wifi`")
+  public var isReachableViaWiFi: Swift.Bool {
+    get
+  }
+  public var description: Swift.String {
+    get
+  }
+}
+public typealias OnActionRequired = (EvamiOSCommonKit.AppCommunicationAction) -> Swift.Void
+public enum EvamEventType : Swift.String {
+  case pageIn
+  case pageOut
+  case appBackground
+  case appForeground
+  case actorChange
+  case pushNotificationReceived
+  case pushNotificationClicked
+  case pushNotificationDenied
+  case pushNotificationDismissed
+  case install
+  case applicationError
+  case inAppOpened
+  case pushTokenChange
+  case inAppDismissed
+  case inAppSelfClicked
+  case inAppButtonClicked
+  case sdkInitialize
+  case login
+  case logout
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers public class AppCommunication : Swift.Codable {
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public enum InAppStatus : Swift.String, Swift.Codable {
+  case ready
+  case used
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class AppCommunicationConfiguration : Swift.Codable {
+  public var blockEvents: [EvamiOSCommonKit.BlockEvent]?
+  public var inAppMaxShowDuration: Swift.Int?
+  public var eventQueueSize: Swift.Int?
+  public var eventQueueDelay: Swift.Double?
+  public var blockAllEvents: Swift.Bool?
+  public var batteryEnabled: Swift.Bool?
+  public var wifiStatusEnabled: Swift.Bool?
+  public var diskCapacityEnabled: Swift.Bool?
+  public var locationEnabled: Swift.Bool?
+  public var apiTriggerEvent: Swift.String
+  public var apiRequestRetryCount: Swift.Int?
+  public var apiRequestTimeout: Swift.Int?
+  public var conversionTimeout: Swift.Int?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public class BlockEvent : Swift.Codable {
+  public var name: Swift.String
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class AppCommunicationAction : Swift.Codable {
+  public var link: Swift.String?
+  public var type: EvamiOSCommonKit.EvamActionType?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class AppCommunicationButton : Swift.Codable {
+  public var id: Swift.String?
+  public var text: EvamiOSCommonKit.InAppTextContent?
+  public var textColor: Swift.String?
+  public var color: Swift.String?
+  public var action: EvamiOSCommonKit.AppCommunicationAction?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class AppCommunicationImage : Swift.Codable {
+  public var url: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+public struct InAppCommunicationText : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public struct InAppTextContent : Swift.Codable {
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
+}
+public enum InAppType : Swift.String, Swift.Codable {
+  case popup
+  case survey
+  case banner
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum InAppShowType : Swift.String, Swift.Codable {
+  case fullscreen
+  case modal
+  case top
+  case bottom
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum EvamActionType : Swift.String, Swift.Codable {
+  case deep, url
+  case unknown
+  public init(from decoder: any Swift.Decoder) throws
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public class NotificationAppCommunicationItem : Swift.Codable {
+  public var uuid: Swift.String
+  public var code: Swift.String?
+  public var actorId: Swift.String?
+  public var pushToken: Swift.String?
+  public var title: Swift.String?
+  public var message: Swift.String?
+  public var image: Swift.String?
+  public var buttons: [EvamiOSCommonKit.AppCommunicationButton]?
+  public var applicationName: Swift.String?
+  public var journey: Swift.String?
+  public var action: EvamiOSCommonKit.AppCommunicationAction?
+  public var images: [EvamiOSCommonKit.AppCommunicationImage]?
+  public var sliderSupport: Swift.Bool?
+  public var category: Swift.String?
+  public var conversionEvent: Swift.String?
+  @objc deinit
+  public func encode(to encoder: any Swift.Encoder) throws
+  required public init(from decoder: any Swift.Decoder) throws
+}
+@_hasMissingDesignatedInitializers public class EvamEvent {
+  public static var shared: EvamiOSCommonKit.EvamEvent
+  public func sendAppBackgroundEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  public func sendAppForegroundEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  public func sendPageInEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  public func sendPageOutEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  public func sendCustomEvent(controller: UIKit.UIViewController, pageName: Swift.String? = nil, eventName: Swift.String, initialParameters: [Swift.String : Any]?, onActionRequired: @escaping EvamiOSCommonKit.OnActionRequired)
+  public func sendPushNotificationDismissedEvent(notification: [Swift.AnyHashable : Any])
+  public func sendPushNotificationNotificationClickedEvent(notification: [Swift.AnyHashable : Any])
+  public func sendPushNotificationReceivedEvent(notification: [Swift.AnyHashable : Any])
+  public func sendPushNotificationDeniedEvent(notification: [Swift.AnyHashable : Any])
+  public func sendLoginEvent(controller: UIKit.UIViewController, pageName: Swift.String? = nil, actorID: Swift.String, initialParameters: [Swift.String : Any]? = nil)
+  public func sendApplicationErrorEvent(error: Foundation.NSError)
+  public func sendLogoutEvent()
+  @objc deinit
+}
+public enum SendEventStatus : Swift.String {
+  case enabled
+  case disabled
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum NetworkStatus : Swift.String {
+  case online
+  case offline
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@objc @_inheritsConvenienceInitializers @_hasMissingDesignatedInitializers public class NotificationManager : ObjectiveC.NSObject {
+  public var handledNotificationAction: EvamiOSCommonKit.AppCommunicationAction?
+  public static var shared: EvamiOSCommonKit.NotificationManager
+  public class func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  public class func handleNotification(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String, actionCallback: @escaping (EvamiOSCommonKit.AppCommunicationAction?) -> ())
+  public static func refreshNotificationPermissionStatusType()
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class EvamSliderPushHelper {
+  public static func getImageList(notification: UserNotifications.UNNotification) -> [Swift.String]
+  public static func getSize(_ collectionView: UIKit.UICollectionView, sizeForItemAt indexPath: Foundation.IndexPath, listCount: Swift.Int) -> CoreFoundation.CGSize
+  public static func scrollNextItem(collectionView: UIKit.UICollectionView!, currentIndex: Swift.Int, listCount: Swift.Int) -> Swift.Int
+  public static func scrollPreviousItem(collectionView: UIKit.UICollectionView!, currentIndex: Swift.Int, listCount: Swift.Int) -> Swift.Int
+  @objc deinit
+}
+public enum AuthTokenStatus : Swift.String {
+  case notDetermined
+  case authorized
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public enum InitializeStatusType : Swift.String {
+  case initializing
+  case initialized
+  case notInitialized
+  case initializeFailed
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+extension Swift.Collection {
+  public subscript(safe index: Self.Index) -> Self.Element? {
+    get
+  }
+}
+public enum LifeCycleEventStatus : Swift.String {
+  case enabled
+  case disabled
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+@_hasMissingDesignatedInitializers final public class ConfigManager {
+  final public func isInitialized() -> Swift.Bool
+  final public func getInitializeStatus() -> EvamiOSCommonKit.InitializeStatusType
+  final public func getActorId() -> Swift.String?
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class Evam {
+  public static var shared: EvamiOSCommonKit.Evam
+  public static var event: EvamiOSCommonKit.EvamEvent
+  final public let configManager: EvamiOSCommonKit.ConfigManager
+  public func initialize(configuration: EvamiOSCommonKit.EvamInitConfig, appGroupID: Swift.String? = nil)
+  public func setPushToken(pushToken: Swift.String)
+  public func getPushToken() -> Swift.String
+  public func setApnsToken(deviceToken: Foundation.Data)
+  public func getActorID(appGroupID: Swift.String) -> Swift.String?
+  @objc deinit
+}
+public enum TokenProviderType : Swift.String {
+  case apns
+  case firebase
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public struct EvamInitConfig {
+  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool = true, forceInitialize: Swift.Bool = false)
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class EvamViewController : UIKit.UIViewController {
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers public class EvamSession {
+  @objc deinit
+}
+public enum NetworkCapability : Swift.String {
+  case wifi
+  case cellular
+  case none
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
+}
+public protocol HeightDefinable {
+  static func defaultHeight() -> CoreFoundation.CGFloat
+}
+public struct EvamLog {
+  public var logMessage: Swift.String
+  public var sector: Swift.String?
+  public var logDate: Foundation.Date
+  public func getFullMessage() -> Swift.String
+  public func getFullMessageWithDate() -> Swift.String
+}
+@_inheritsConvenienceInitializers @objc(ConversionEntity) public class ConversionEntity : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension EvamiOSCommonKit.ConversionEntity {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<EvamiOSCommonKit.ConversionEntity>
+  @objc @NSManaged dynamic public var actorId: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var communicationCode: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var convertionName: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var time: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+}
+@_inheritsConvenienceInitializers @objc(EventQueue) public class EventQueue : CoreData.NSManagedObject {
+  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  @objc deinit
+}
+extension EvamiOSCommonKit.EventQueue {
+  @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<EvamiOSCommonKit.EventQueue>
+  @objc @NSManaged dynamic public var event: Swift.String? {
+    @objc get
+    @objc set
+  }
+  @objc @NSManaged dynamic public var timestamp: Foundation.Date? {
+    @objc get
+    @objc set
+  }
+}
+extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.Equatable {}
+extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.Hashable {}
+extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.Reachability.Connection : Swift.Equatable {}
+extension EvamiOSCommonKit.Reachability.Connection : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamEventType : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamEventType : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamEventType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.InAppStatus : Swift.Equatable {}
+extension EvamiOSCommonKit.InAppStatus : Swift.Hashable {}
+extension EvamiOSCommonKit.InAppStatus : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.InAppType : Swift.Equatable {}
+extension EvamiOSCommonKit.InAppType : Swift.Hashable {}
+extension EvamiOSCommonKit.InAppType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.InAppShowType : Swift.Equatable {}
+extension EvamiOSCommonKit.InAppShowType : Swift.Hashable {}
+extension EvamiOSCommonKit.InAppShowType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.EvamActionType : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamActionType : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamActionType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.SendEventStatus : Swift.Equatable {}
+extension EvamiOSCommonKit.SendEventStatus : Swift.Hashable {}
+extension EvamiOSCommonKit.SendEventStatus : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.NetworkStatus : Swift.Equatable {}
+extension EvamiOSCommonKit.NetworkStatus : Swift.Hashable {}
+extension EvamiOSCommonKit.NetworkStatus : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.AuthTokenStatus : Swift.Equatable {}
+extension EvamiOSCommonKit.AuthTokenStatus : Swift.Hashable {}
+extension EvamiOSCommonKit.AuthTokenStatus : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.InitializeStatusType : Swift.Equatable {}
+extension EvamiOSCommonKit.InitializeStatusType : Swift.Hashable {}
+extension EvamiOSCommonKit.InitializeStatusType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.LifeCycleEventStatus : Swift.Equatable {}
+extension EvamiOSCommonKit.LifeCycleEventStatus : Swift.Hashable {}
+extension EvamiOSCommonKit.LifeCycleEventStatus : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.TokenProviderType : Swift.Equatable {}
+extension EvamiOSCommonKit.TokenProviderType : Swift.Hashable {}
+extension EvamiOSCommonKit.TokenProviderType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.NetworkCapability : Swift.Equatable {}
+extension EvamiOSCommonKit.NetworkCapability : Swift.Hashable {}
+extension EvamiOSCommonKit.NetworkCapability : Swift.RawRepresentable {}

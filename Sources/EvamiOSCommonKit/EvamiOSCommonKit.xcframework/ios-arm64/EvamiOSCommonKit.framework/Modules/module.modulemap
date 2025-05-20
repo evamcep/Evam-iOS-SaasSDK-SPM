@@ -1,0 +1,11 @@
+framework module EvamiOSCommonKit {
+  umbrella header "EvamiOSCommonKit.h"
+  export *
+
+  module * { export * }
+}
+
+module EvamiOSCommonKit.Swift {
+  header "EvamiOSCommonKit-Swift.h"
+  requires objc
+}
