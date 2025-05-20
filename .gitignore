@@ -1,0 +1,16 @@
+# Swift Package Manager build cache
+.build/
+
+# Xcode project workspace settings (optional)
+*.xcworkspace
+xcuserdata/
+
+# Derived data (optional, if you open in Xcode)
+DerivedData/
+
+# macOS specific files
+.DS_Store
+
+# Temporary files
+*.swp
+*.lock
