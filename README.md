@@ -7,7 +7,6 @@ This SDK enables the integration of Evam's Saas solution into your iOS project. 
 ## 1. Prerequisites
 
 - **iOS 11.0** or later  
-- Your GitHub username must be authorized by Evam for private repository access
 
 ---
 
