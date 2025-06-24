@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.0 effective-5.10 (swiftlang-6.0.0.9.10 clang-1600.0.26.2)
-// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-bare-slash-regex -module-name EvamiOSCommonKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface
+// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
+// swift-module-flags: -target arm64-apple-ios11.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EvamiOSCommonKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
 import CoreData
 import CoreLocation
 import DeveloperToolsSupport
@@ -104,6 +104,14 @@ extension EvamiOSCommonKit.Reachability {
   }
 }
 public typealias OnActionRequired = (EvamiOSCommonKit.AppCommunicationAction) -> Swift.Void
+@available(iOS 13.0, *)
+extension SwiftUICore.View {
+  @available(iOS 14.0, *)
+  @_Concurrency.MainActor @preconcurrency public func trackAppLifecycleEvents(using scenePhase: SwiftUI.ScenePhase) -> some SwiftUICore.View
+  
+  @_Concurrency.MainActor @preconcurrency public func trackPageLifecycleEvents(pageName: Swift.String) -> some SwiftUICore.View
+  
+}
 public enum EvamEventType : Swift.String {
   case pageIn
   case pageOut
@@ -262,12 +270,12 @@ public class NotificationAppCommunicationItem : Swift.Codable {
   public func sendAppForegroundEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
   public func sendPageInEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
   public func sendPageOutEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
-  public func sendCustomEvent(controller: UIKit.UIViewController, pageName: Swift.String? = nil, eventName: Swift.String, initialParameters: [Swift.String : Any]?, onActionRequired: @escaping EvamiOSCommonKit.OnActionRequired)
+  public func sendCustomEvent(controller: UIKit.UIViewController? = nil, pageName: Swift.String? = nil, eventName: Swift.String, initialParameters: [Swift.String : Any]?, onActionRequired: @escaping EvamiOSCommonKit.OnActionRequired)
   public func sendPushNotificationDismissedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationNotificationClickedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationReceivedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationDeniedEvent(notification: [Swift.AnyHashable : Any])
-  public func sendLoginEvent(controller: UIKit.UIViewController, pageName: Swift.String? = nil, actorID: Swift.String, initialParameters: [Swift.String : Any]? = nil)
+  public func sendLoginEvent(controller: UIKit.UIViewController? = nil, pageName: Swift.String? = nil, actorID: Swift.String, initialParameters: [Swift.String : Any]? = nil)
   public func sendApplicationErrorEvent(error: Foundation.NSError)
   public func sendLogoutEvent()
   @objc deinit
@@ -339,6 +347,14 @@ public enum LifeCycleEventStatus : Swift.String {
     get
   }
 }
+extension Swift.String {
+  public var url: Foundation.URL? {
+    get
+  }
+}
+public struct EvamDesignConfig {
+  public init(buttonCornerRadius: CoreFoundation.CGFloat? = nil)
+}
 @_hasMissingDesignatedInitializers final public class ConfigManager {
   final public func isInitialized() -> Swift.Bool
   final public func getInitializeStatus() -> EvamiOSCommonKit.InitializeStatusType
@@ -366,7 +382,7 @@ public enum TokenProviderType : Swift.String {
   }
 }
 public struct EvamInitConfig {
-  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool = true, forceInitialize: Swift.Bool = false)
+  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool = true, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
 }
 @objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class EvamViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
