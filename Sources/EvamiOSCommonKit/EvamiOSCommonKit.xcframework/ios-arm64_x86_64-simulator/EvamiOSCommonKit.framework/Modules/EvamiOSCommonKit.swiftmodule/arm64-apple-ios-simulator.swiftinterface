@@ -7,6 +7,7 @@ import CoreLocation
 import DeveloperToolsSupport
 @_exported import EvamiOSCommonKit
 import Foundation
+import Network
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -111,6 +112,40 @@ extension SwiftUICore.View {
   
   @_Concurrency.MainActor @preconcurrency public func trackPageLifecycleEvents(pageName: Swift.String) -> some SwiftUICore.View
   
+}
+public enum EvamInitResult {
+  case success(reason: EvamiOSCommonKit.EvamInitResult.SuccessReason)
+  case failure(reason: EvamiOSCommonKit.EvamInitResult.FailureReason)
+  public struct SuccessReason {
+    public let type: EvamiOSCommonKit.EvamInitResult.SuccessType
+    public let message: Swift.String?
+  }
+  public struct FailureReason {
+    public let type: EvamiOSCommonKit.EvamInitResult.FailureType
+    public let message: Swift.String?
+    public let errorCode: Swift.Int?
+  }
+  public enum SuccessType {
+    case initialized
+    case alreadyInitialized
+    public static func == (a: EvamiOSCommonKit.EvamInitResult.SuccessType, b: EvamiOSCommonKit.EvamInitResult.SuccessType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
+  public enum FailureType {
+    case configurationInvalid
+    case clientKnowledgeUnavailable
+    case initializationDataFetchFailed
+    case authTokenGenerationFailed
+    case unknown
+    public static func == (a: EvamiOSCommonKit.EvamInitResult.FailureType, b: EvamiOSCommonKit.EvamInitResult.FailureType) -> Swift.Bool
+    public func hash(into hasher: inout Swift.Hasher)
+    public var hashValue: Swift.Int {
+      get
+    }
+  }
 }
 public enum EvamEventType : Swift.String {
   case pageIn
@@ -338,6 +373,21 @@ extension Swift.Collection {
     get
   }
 }
+extension EvamiOSCommonKit.EvamInitResult : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension EvamiOSCommonKit.EvamInitResult.SuccessReason : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
+extension EvamiOSCommonKit.EvamInitResult.FailureReason : Swift.CustomStringConvertible {
+  public var description: Swift.String {
+    get
+  }
+}
 public enum LifeCycleEventStatus : Swift.String {
   case enabled
   case disabled
@@ -365,7 +415,7 @@ public struct EvamDesignConfig {
   public static var shared: EvamiOSCommonKit.Evam
   public static var event: EvamiOSCommonKit.EvamEvent
   final public let configManager: EvamiOSCommonKit.ConfigManager
-  public func initialize(configuration: EvamiOSCommonKit.EvamInitConfig, appGroupID: Swift.String? = nil)
+  public func initialize(configuration: EvamiOSCommonKit.EvamInitConfig, appGroupID: Swift.String? = nil, onSuccess: ((EvamiOSCommonKit.EvamInitResult.SuccessReason) -> Swift.Void)? = nil, onFailure: ((EvamiOSCommonKit.EvamInitResult.FailureReason) -> Swift.Void)? = nil)
   public func setPushToken(pushToken: Swift.String)
   public func getPushToken() -> Swift.String
   public func setApnsToken(deviceToken: Foundation.Data)
@@ -459,6 +509,10 @@ extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.Hashable {}
 extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.RawRepresentable {}
 extension EvamiOSCommonKit.Reachability.Connection : Swift.Equatable {}
 extension EvamiOSCommonKit.Reachability.Connection : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamInitResult.SuccessType : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamInitResult.SuccessType : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamInitResult.FailureType : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamInitResult.FailureType : Swift.Hashable {}
 extension EvamiOSCommonKit.EvamEventType : Swift.Equatable {}
 extension EvamiOSCommonKit.EvamEventType : Swift.Hashable {}
 extension EvamiOSCommonKit.EvamEventType : Swift.RawRepresentable {}
