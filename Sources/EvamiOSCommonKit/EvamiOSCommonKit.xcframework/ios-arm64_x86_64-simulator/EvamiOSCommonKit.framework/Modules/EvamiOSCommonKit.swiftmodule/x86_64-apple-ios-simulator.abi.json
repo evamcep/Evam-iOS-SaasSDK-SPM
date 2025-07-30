@@ -20560,7 +20560,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"1.3.0\""
+      "value": "\"1.3.1\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -20768,119 +20768,119 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 1862,
+      "offset": 1864,
       "length": 7,
       "value": "\"READY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 1886,
+      "offset": 1888,
       "length": 6,
       "value": "\"USED\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4761,
+      "offset": 4764,
       "length": 8,
       "value": "\"MINUTE\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4786,
+      "offset": 4789,
       "length": 6,
       "value": "\"HOUR\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4808,
+      "offset": 4811,
       "length": 5,
       "value": "\"DAY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4830,
+      "offset": 4833,
       "length": 6,
       "value": "\"WEEK\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4854,
+      "offset": 4857,
       "length": 7,
       "value": "\"MONTH\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4945,
+      "offset": 4948,
       "length": 7,
       "value": "\"POPUP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4971,
+      "offset": 4974,
       "length": 8,
       "value": "\"SURVEY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4998,
+      "offset": 5001,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5352,
+      "offset": 5355,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5383,
+      "offset": 5386,
       "length": 7,
       "value": "\"MODAL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5406,
+      "offset": 5409,
       "length": 5,
       "value": "\"TOP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5430,
+      "offset": 5433,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5810,
+      "offset": 5813,
       "length": 6,
       "value": "\"DEEP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5824,
+      "offset": 5827,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "BooleanLiteral",
-      "offset": 6685,
+      "offset": 6688,
       "length": 5,
       "value": "false"
     },
