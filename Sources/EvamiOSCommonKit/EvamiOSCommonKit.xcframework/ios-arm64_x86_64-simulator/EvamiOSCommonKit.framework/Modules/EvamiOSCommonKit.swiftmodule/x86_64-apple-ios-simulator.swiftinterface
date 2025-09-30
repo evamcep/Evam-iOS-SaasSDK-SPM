@@ -147,7 +147,7 @@ public enum EvamInitResult {
     }
   }
 }
-public enum EvamEventType : Swift.String {
+public enum EvamEventType : Swift.String, Swift.CaseIterable {
   case pageIn
   case pageOut
   case appBackground
@@ -167,11 +167,29 @@ public enum EvamEventType : Swift.String {
   case sdkInitialize
   case login
   case logout
+  case userProfileUpdated
+  case userSdkProfileUpdated
   public init?(rawValue: Swift.String)
+  public typealias AllCases = [EvamiOSCommonKit.EvamEventType]
   public typealias RawValue = Swift.String
+  nonisolated public static var allCases: [EvamiOSCommonKit.EvamEventType] {
+    get
+  }
   public var rawValue: Swift.String {
     get
   }
+}
+public struct UserProfileModel : Swift.Codable {
+  public var customerId: Swift.String?
+  public var email: Swift.String?
+  public var phoneNumber: Swift.String?
+  public var birthday: Swift.String?
+  public var gender: Swift.String?
+  public var country: Swift.String?
+  public var city: Swift.String?
+  public init()
+  public func encode(to encoder: any Swift.Encoder) throws
+  public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class AppCommunication : Swift.Codable {
   @objc deinit
@@ -248,6 +266,7 @@ public enum InAppType : Swift.String, Swift.Codable {
   case popup
   case survey
   case banner
+  case carousel
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
@@ -261,6 +280,7 @@ public enum InAppShowType : Swift.String, Swift.Codable {
   case modal
   case top
   case bottom
+  case carousel
   case unknown
   public init(from decoder: any Swift.Decoder) throws
   public init?(rawValue: Swift.String)
@@ -313,6 +333,7 @@ public class NotificationAppCommunicationItem : Swift.Codable {
   public func sendLoginEvent(controller: UIKit.UIViewController? = nil, pageName: Swift.String? = nil, actorID: Swift.String, initialParameters: [Swift.String : Any]? = nil)
   public func sendApplicationErrorEvent(error: Foundation.NSError)
   public func sendLogoutEvent()
+  public func sendUserProfileUpdateEvent(profile: EvamiOSCommonKit.UserProfileModel)
   @objc deinit
 }
 public enum SendEventStatus : Swift.String {
@@ -444,6 +465,12 @@ public struct EvamInitConfig {
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class EvamSession {
+  @objc deinit
+}
+@_hasMissingDesignatedInitializers final public class StickyBannerActionListener {
+  public static let shared: EvamiOSCommonKit.StickyBannerActionListener
+  public static let actionNotification: Foundation.Notification.Name
+  final public func handle(action: EvamiOSCommonKit.AppCommunicationAction)
   @objc deinit
 }
 public enum NetworkCapability : Swift.String {

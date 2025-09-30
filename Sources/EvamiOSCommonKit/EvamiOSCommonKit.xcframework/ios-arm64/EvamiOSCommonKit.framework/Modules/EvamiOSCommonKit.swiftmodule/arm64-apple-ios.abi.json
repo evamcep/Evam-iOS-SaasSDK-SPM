@@ -451,6 +451,23 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
         "name": "SystemConfiguration",
         "printedName": "SystemConfiguration",
         "declKind": "Import",
@@ -2244,6 +2261,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -2261,6 +2288,23 @@
         "declAttributes": [
           "RawDocComment"
         ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
       },
       {
         "kind": "Import",
@@ -2298,6 +2342,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -4241,6 +4295,80 @@
             "moduleName": "EvamiOSCommonKit"
           },
           {
+            "kind": "Var",
+            "name": "userProfileUpdated",
+            "printedName": "userProfileUpdated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.EvamEventType.Type) -> EvamiOSCommonKit.EvamEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvamEventType",
+                    "printedName": "EvamiOSCommonKit.EvamEventType",
+                    "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.EvamEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvamEventType",
+                        "printedName": "EvamiOSCommonKit.EvamEventType",
+                        "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit13EvamEventTypeO18userProfileUpdatedyA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit13EvamEventTypeO18userProfileUpdatedyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
+            "kind": "Var",
+            "name": "userSdkProfileUpdated",
+            "printedName": "userSdkProfileUpdated",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.EvamEventType.Type) -> EvamiOSCommonKit.EvamEventType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvamEventType",
+                    "printedName": "EvamiOSCommonKit.EvamEventType",
+                    "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.EvamEventType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvamEventType",
+                        "printedName": "EvamiOSCommonKit.EvamEventType",
+                        "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit13EvamEventTypeO21userSdkProfileUpdatedyA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit13EvamEventTypeO21userSdkProfileUpdatedyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -4311,6 +4439,66 @@
                 "accessorKind": "get"
               }
             ]
+          },
+          {
+            "kind": "Var",
+            "name": "allCases",
+            "printedName": "allCases",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[EvamiOSCommonKit.EvamEventType]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvamEventType",
+                    "printedName": "EvamiOSCommonKit.EvamEventType",
+                    "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit13EvamEventTypeO8allCasesSayACGvpZ",
+            "mangledName": "$s16EvamiOSCommonKit13EvamEventTypeO8allCasesSayACGvpZ",
+            "moduleName": "EvamiOSCommonKit",
+            "static": true,
+            "implicit": true,
+            "declAttributes": [
+              "Nonisolated"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[EvamiOSCommonKit.EvamEventType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvamEventType",
+                        "printedName": "EvamiOSCommonKit.EvamEventType",
+                        "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit13EvamEventTypeO8allCasesSayACGvgZ",
+                "mangledName": "$s16EvamiOSCommonKit13EvamEventTypeO8allCasesSayACGvgZ",
+                "moduleName": "EvamiOSCommonKit",
+                "static": true,
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
           }
         ],
         "declKind": "Enum",
@@ -4371,6 +4559,923 @@
             ],
             "usr": "s:SY",
             "mangledName": "$sSY"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CaseIterable",
+            "printedName": "CaseIterable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "AllCases",
+                "printedName": "AllCases",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[EvamiOSCommonKit.EvamEventType]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "EvamEventType",
+                        "printedName": "EvamiOSCommonKit.EvamEventType",
+                        "usr": "s:16EvamiOSCommonKit13EvamEventTypeO"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:s12CaseIterableP",
+            "mangledName": "$ss12CaseIterableP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UserProfileModel",
+        "printedName": "UserProfileModel",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "customerId",
+            "printedName": "customerId",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV10customerIdSSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "email",
+            "printedName": "email",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV5emailSSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV5emailSSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV5emailSSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV5emailSSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV5emailSSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV5emailSSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV5emailSSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV5emailSSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "phoneNumber",
+            "printedName": "phoneNumber",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV11phoneNumberSSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "birthday",
+            "printedName": "birthday",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV8birthdaySSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "gender",
+            "printedName": "gender",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV6genderSSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV6genderSSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV6genderSSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV6genderSSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV6genderSSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV6genderSSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV6genderSSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV6genderSSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "country",
+            "printedName": "country",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV7countrySSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV7countrySSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV7countrySSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV7countrySSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV7countrySSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV7countrySSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV7countrySSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV7countrySSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "city",
+            "printedName": "city",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV4citySSSgvp",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV4citySSSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV4citySSSgvg",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV4citySSSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV4citySSSgvs",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV4citySSSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV4citySSSgvM",
+                "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV4citySSSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfileModel",
+                "printedName": "EvamiOSCommonKit.UserProfileModel",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelVACycfc",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelVACycfc",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfileModel",
+                "printedName": "EvamiOSCommonKit.UserProfileModel",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Decoder",
+                "printedName": "any Swift.Decoder",
+                "usr": "s:s7DecoderP"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV4fromACs7Decoder_p_tKcfc",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV4fromACs7Decoder_p_tKcfc",
+            "moduleName": "EvamiOSCommonKit",
+            "implicit": true,
+            "throwing": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "encode",
+            "printedName": "encode(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Encoder",
+                "printedName": "any Swift.Encoder",
+                "usr": "s:s7EncoderP"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit16UserProfileModelV6encode2toys7Encoder_p_tKF",
+            "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV6encode2toys7Encoder_p_tKF",
+            "moduleName": "EvamiOSCommonKit",
+            "implicit": true,
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16EvamiOSCommonKit16UserProfileModelV",
+        "mangledName": "$s16EvamiOSCommonKit16UserProfileModelV",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Decodable",
+            "printedName": "Decodable",
+            "usr": "s:Se",
+            "mangledName": "$sSe"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Encodable",
+            "printedName": "Encodable",
+            "usr": "s:SE",
+            "mangledName": "$sSE"
           }
         ]
       },
@@ -4390,6 +5495,26 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -8004,6 +9129,43 @@
           },
           {
             "kind": "Var",
+            "name": "carousel",
+            "printedName": "carousel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.InAppType.Type) -> EvamiOSCommonKit.InAppType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppType",
+                    "printedName": "EvamiOSCommonKit.InAppType",
+                    "usr": "s:16EvamiOSCommonKit9InAppTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.InAppType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppType",
+                        "printedName": "EvamiOSCommonKit.InAppType",
+                        "usr": "s:16EvamiOSCommonKit9InAppTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit9InAppTypeO8carouselyA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit9InAppTypeO8carouselyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
+            "kind": "Var",
             "name": "unknown",
             "printedName": "unknown",
             "children": [
@@ -8367,6 +9529,43 @@
             "declKind": "EnumElement",
             "usr": "s:16EvamiOSCommonKit13InAppShowTypeO6bottomyA2CmF",
             "mangledName": "$s16EvamiOSCommonKit13InAppShowTypeO6bottomyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
+            "kind": "Var",
+            "name": "carousel",
+            "printedName": "carousel",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.InAppShowType.Type) -> EvamiOSCommonKit.InAppShowType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppShowType",
+                    "printedName": "EvamiOSCommonKit.InAppShowType",
+                    "usr": "s:16EvamiOSCommonKit13InAppShowTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.InAppShowType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppShowType",
+                        "printedName": "EvamiOSCommonKit.InAppShowType",
+                        "usr": "s:16EvamiOSCommonKit13InAppShowTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit13InAppShowTypeO8carouselyA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit13InAppShowTypeO8carouselyA2CmF",
             "moduleName": "EvamiOSCommonKit"
           },
           {
@@ -10669,6 +11868,26 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -10691,6 +11910,16 @@
         "kind": "Import",
         "name": "Network",
         "printedName": "Network",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
@@ -11419,6 +12648,32 @@
             "declKind": "Func",
             "usr": "s:16EvamiOSCommonKit9EvamEventC010sendLogoutE0yyF",
             "mangledName": "$s16EvamiOSCommonKit9EvamEventC010sendLogoutE0yyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "sendUserProfileUpdateEvent",
+            "printedName": "sendUserProfileUpdateEvent(profile:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UserProfileModel",
+                "printedName": "EvamiOSCommonKit.UserProfileModel",
+                "usr": "s:16EvamiOSCommonKit16UserProfileModelV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit9EvamEventC021sendUserProfileUpdateE07profileyAA0gH5ModelV_tF",
+            "mangledName": "$s16EvamiOSCommonKit9EvamEventC021sendUserProfileUpdateE07profileyAA0gH5ModelV_tF",
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "AccessControl"
@@ -12812,6 +14067,16 @@
             "usr": "s:SY",
             "mangledName": "$sSY"
           }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
         ]
       },
       {
@@ -14786,6 +16051,13 @@
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
           "RawDocComment"
@@ -15190,6 +16462,177 @@
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "StickyBannerActionListener",
+        "printedName": "StickyBannerActionListener",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "StickyBannerActionListener",
+                "printedName": "EvamiOSCommonKit.StickyBannerActionListener",
+                "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC6sharedACvpZ",
+            "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC6sharedACvpZ",
+            "moduleName": "EvamiOSCommonKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "StickyBannerActionListener",
+                    "printedName": "EvamiOSCommonKit.StickyBannerActionListener",
+                    "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC6sharedACvgZ",
+                "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC6sharedACvgZ",
+                "moduleName": "EvamiOSCommonKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "actionNotification",
+            "printedName": "actionNotification",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Name",
+                "printedName": "Foundation.NSNotification.Name",
+                "usr": "c:@T@NSNotificationName"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC18actionNotificationSo18NSNotificationNameavpZ",
+            "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC18actionNotificationSo18NSNotificationNameavpZ",
+            "moduleName": "EvamiOSCommonKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Name",
+                    "printedName": "Foundation.NSNotification.Name",
+                    "usr": "c:@T@NSNotificationName"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC18actionNotificationSo18NSNotificationNameavgZ",
+                "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC18actionNotificationSo18NSNotificationNameavgZ",
+                "moduleName": "EvamiOSCommonKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "handle",
+            "printedName": "handle(action:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AppCommunicationAction",
+                "printedName": "EvamiOSCommonKit.AppCommunicationAction",
+                "usr": "s:16EvamiOSCommonKit22AppCommunicationActionC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC6handle6actionyAA016AppCommunicationF0C_tF",
+            "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC6handle6actionyAA016AppCommunicationF0C_tF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16EvamiOSCommonKit26StickyBannerActionListenerC",
+        "mangledName": "$s16EvamiOSCommonKit26StickyBannerActionListenerC",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -15940,23 +17383,6 @@
             "mangledName": "$ss9EscapableP"
           }
         ]
-      },
-      {
-        "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit",
-        "declAttributes": [
-          "RawDocComment"
-        ]
-      },
-      {
-        "kind": "Import",
-        "name": "UIKit",
-        "printedName": "UIKit",
-        "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
       },
       {
         "kind": "Import",
@@ -19928,28 +21354,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2916,
+      "offset": 3517,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2947,
+      "offset": 3548,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2971,
+      "offset": 3572,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 9474,
+      "offset": 10283,
       "length": 5,
       "value": "false"
     },
@@ -19959,6 +21385,13 @@
       "offset": 188,
       "length": 21,
       "value": "\"Evam-BannerManager:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppCarouselManager.swift",
+      "kind": "StringLiteral",
+      "offset": 200,
+      "length": 28,
+      "value": "\"Evam-InAppCarouselManager:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppConditionManager.swift",
@@ -20451,6 +21884,97 @@
       "value": "\"buttonText\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3152,
+      "length": 12,
+      "value": "\"customerId\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3188,
+      "length": 7,
+      "value": "\"email\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3225,
+      "length": 13,
+      "value": "\"phoneNumber\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3265,
+      "length": 10,
+      "value": "\"birthday\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3300,
+      "length": 8,
+      "value": "\"gender\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3334,
+      "length": 9,
+      "value": "\"country\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3366,
+      "length": 6,
+      "value": "\"city\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3477,
+      "length": 10,
+      "value": "\"language\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3517,
+      "length": 13,
+      "value": "\"isAnonymous\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3559,
+      "length": 12,
+      "value": "\"appVersion\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3719,
+      "length": 18,
+      "value": "\"slideIndexOnExit\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3779,
+      "length": 17,
+      "value": "\"slidesSeenCount\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventsParamatersKey.swift",
+      "kind": "StringLiteral",
+      "offset": 3834,
+      "length": 13,
+      "value": "\"dismissType\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Conversion\/ConversionManager.swift",
       "kind": "StringLiteral",
       "offset": 311,
@@ -20477,6 +22001,13 @@
       "offset": 809,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Extensions\/UIImageView+Remote.swift",
+      "kind": "BooleanLiteral",
+      "offset": 813,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Event\/PushEvents\/PushNotificationEvent.swift",
@@ -20507,6 +22038,13 @@
       "value": "\"push_notificition_denied\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/StickyBanner.swift",
+      "kind": "StringLiteral",
+      "offset": 197,
+      "length": 27,
+      "value": "\"Evam-StickyBannerManager:\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/EventConstant.swift",
       "kind": "StringLiteral",
       "offset": 163,
@@ -20535,6 +22073,20 @@
       "value": "\"PUSH_NOTIFICATION_RESPONSE\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/BottomStickyBannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 533,
+      "length": 30,
+      "value": "\"Evam-BottomStickyBannerView:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/BottomStickyBannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4414,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Configuration\/ConfigurationManager.swift",
       "kind": "Dictionary",
       "offset": 241,
@@ -20551,7 +22103,21 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 484,
+      "offset": 505,
+      "length": 35,
+      "value": "\"com.evam.sdk.queueProcessing.lock\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 586,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
+      "kind": "StringLiteral",
+      "offset": 808,
       "length": 20,
       "value": "\"Evam-QueueManager:\""
     },
@@ -20560,7 +22126,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"1.3.2\""
+      "value": "\"1.5.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -20579,135 +22145,149 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 163,
+      "offset": 177,
       "length": 9,
       "value": "\"page_in\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 192,
+      "offset": 206,
       "length": 10,
       "value": "\"page_out\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 228,
+      "offset": 242,
       "length": 16,
       "value": "\"app_background\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 270,
+      "offset": 284,
       "length": 16,
       "value": "\"app_foreground\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 310,
+      "offset": 324,
       "length": 14,
       "value": "\"actor_change\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 361,
+      "offset": 375,
       "length": 28,
       "value": "\"push_notification_received\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 425,
+      "offset": 439,
       "length": 27,
       "value": "\"push_notification_clicked\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 487,
+      "offset": 501,
       "length": 26,
       "value": "\"push_notificition_denied\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 551,
+      "offset": 565,
       "length": 29,
       "value": "\"push_notification_dismissed\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 600,
+      "offset": 614,
       "length": 9,
       "value": "\"install\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 638,
+      "offset": 652,
       "length": 19,
       "value": "\"application_error\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 681,
+      "offset": 695,
       "length": 15,
       "value": "\"in_app_opened\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 724,
+      "offset": 738,
       "length": 19,
       "value": "\"push_token_change\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 770,
+      "offset": 784,
       "length": 18,
       "value": "\"in_app_dismissed\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 817,
+      "offset": 831,
       "length": 21,
       "value": "\"in_app_self_clicked\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 869,
+      "offset": 883,
       "length": 23,
       "value": "\"in_app_button_clicked\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 918,
+      "offset": 932,
       "length": 16,
       "value": "\"sdk_initialize\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 952,
+      "offset": 966,
       "length": 7,
       "value": "\"login\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
       "kind": "StringLiteral",
-      "offset": 978,
+      "offset": 992,
       "length": 8,
       "value": "\"logout\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1031,
+      "length": 22,
+      "value": "\"user_profile_updated\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/EventType.swift",
+      "kind": "StringLiteral",
+      "offset": 1087,
+      "length": 26,
+      "value": "\"user_sdk_profile_updated\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Protocols\/Injection\/InjectionMap.swift",
@@ -20768,119 +22348,182 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 1864,
+      "offset": 2033,
       "length": 7,
       "value": "\"READY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 1888,
+      "offset": 2057,
       "length": 6,
       "value": "\"USED\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4764,
+      "offset": 4933,
       "length": 8,
       "value": "\"MINUTE\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4789,
+      "offset": 4958,
       "length": 6,
       "value": "\"HOUR\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4811,
+      "offset": 4980,
       "length": 5,
       "value": "\"DAY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4833,
+      "offset": 5002,
       "length": 6,
       "value": "\"WEEK\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 5026,
       "length": 7,
       "value": "\"MONTH\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4948,
+      "offset": 5117,
       "length": 7,
       "value": "\"POPUP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4974,
+      "offset": 5143,
       "length": 8,
       "value": "\"SURVEY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5001,
+      "offset": 5170,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5355,
+      "offset": 5199,
+      "length": 10,
+      "value": "\"CAROUSEL\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
+      "kind": "StringLiteral",
+      "offset": 5555,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5386,
+      "offset": 5586,
       "length": 7,
       "value": "\"MODAL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5409,
+      "offset": 5609,
       "length": 5,
       "value": "\"TOP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5433,
+      "offset": 5633,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5813,
+      "offset": 5662,
+      "length": 10,
+      "value": "\"CAROUSEL\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
+      "kind": "StringLiteral",
+      "offset": 6044,
       "length": 6,
       "value": "\"DEEP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5827,
+      "offset": 6058,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "BooleanLiteral",
-      "offset": 6688,
+      "offset": 6919,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/CustomViews\/SlideProgressView.swift",
+      "kind": "Array",
+      "offset": 203,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/CustomViews\/SlideProgressView.swift",
+      "kind": "Array",
+      "offset": 243,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/CustomViews\/SlideProgressView.swift",
+      "kind": "Array",
+      "offset": 307,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/CustomViews\/SlideProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 345,
+      "length": 1,
+      "value": "6"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/CustomViews\/SlideProgressView.swift",
+      "kind": "IntegerLiteral",
+      "offset": 379,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/TopStickyBannerViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 524,
+      "length": 27,
+      "value": "\"Evam-TopStickyBannerView:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/TopStickyBannerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 4329,
       "length": 5,
       "value": "false"
     },
@@ -20985,7 +22628,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/BottomBannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3647,
+      "offset": 3837,
       "length": 5,
       "value": "false"
     },
@@ -21053,6 +22696,20 @@
       "value": "\"Evam-EvamSliderPushHelper:\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/DismissType.swift",
+      "kind": "StringLiteral",
+      "offset": 141,
+      "length": 8,
+      "value": "\"manual\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Event\/DismissType.swift",
+      "kind": "StringLiteral",
+      "offset": 166,
+      "length": 6,
+      "value": "\"auto\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Extensions\/NotificationExtension.swift",
       "kind": "StringLiteral",
       "offset": 206,
@@ -21118,37 +22775,51 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
       "kind": "StringLiteral",
-      "offset": 4440,
+      "offset": 5187,
       "length": 11,
       "value": "\"apnsToken\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
       "kind": "StringLiteral",
-      "offset": 4473,
+      "offset": 5220,
       "length": 11,
       "value": "\"pushToken\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
       "kind": "StringLiteral",
-      "offset": 4504,
+      "offset": 5251,
       "length": 9,
       "value": "\"actorId\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
       "kind": "StringLiteral",
-      "offset": 4537,
+      "offset": 5284,
       "length": 13,
       "value": "\"tokenStatus\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
       "kind": "StringLiteral",
-      "offset": 4575,
+      "offset": 5322,
       "length": 14,
       "value": "\"guestActorId\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5364,
+      "length": 17,
+      "value": "\"userIsAnonymous\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Local\/Preferences\/PreferencesManager.swift",
+      "kind": "StringLiteral",
+      "offset": 5412,
+      "length": 23,
+      "value": "\"last_sent_sdk_profile\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/ModalManager.swift",
@@ -21209,28 +22880,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8112,
+      "offset": 8815,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8143,
+      "offset": 8846,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8167,
+      "offset": 8870,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14273,
+      "offset": 14997,
       "length": 5,
       "value": "false"
     },
@@ -21627,6 +23298,69 @@
       "value": "\"Evam-PageLifecycleTrackerModifier:\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 165,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "Array",
+      "offset": 324,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1581,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1644,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1858,
+      "length": 5,
+      "value": "\"✕\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1998,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2102,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2143,
+      "length": 2,
+      "value": "12"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/InAppCarouselViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2205,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/BaseView\/EvamViewController.swift",
       "kind": "StringLiteral",
       "offset": 197,
@@ -21674,6 +23408,13 @@
       "offset": 503,
       "length": 23,
       "value": "\"BodyTextTableViewCell\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/StickyBannerActionListener.swift",
+      "kind": "StringLiteral",
+      "offset": 328,
+      "length": 32,
+      "value": "\"StickyBannerActionNotification\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/PopupCells\/TableViewCells\/ImageTableViewCell\/ImageTableViewCell.swift",
@@ -21783,7 +23524,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/TopBannerViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3620,
+      "offset": 3801,
       "length": 5,
       "value": "false"
     },
@@ -21849,20 +23590,6 @@
       "offset": 695,
       "length": 2,
       "value": "12"
-    },
-    {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/PopupManager.swift",
-      "kind": "StringLiteral",
-      "offset": 186,
-      "length": 20,
-      "value": "\"Evam-PopupManager:\""
-    },
-    {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/PopupManager.swift",
-      "kind": "IntegerLiteral",
-      "offset": 280,
-      "length": 1,
-      "value": "3"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Library\/Developer\/Xcode\/DerivedData\/evam-saas-IOS-bqtastqdcfpzcxcmjqwdreqpmqhv\/Build\/Intermediates.noindex\/ArchiveIntermediates\/EvamiOSCommonKit\/IntermediateBuildFilesPath\/EvamiOSCommonKit.build\/Release-iphoneos\/EvamiOSCommonKit.build\/DerivedSources\/GeneratedAssetSymbols.swift",
