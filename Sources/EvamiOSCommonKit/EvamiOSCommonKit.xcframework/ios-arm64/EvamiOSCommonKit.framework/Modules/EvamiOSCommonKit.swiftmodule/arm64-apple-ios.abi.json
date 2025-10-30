@@ -14243,6 +14243,43 @@
             "moduleName": "EvamiOSCommonKit"
           },
           {
+            "kind": "Var",
+            "name": "offline",
+            "printedName": "offline",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.InitializeStatusType.Type) -> EvamiOSCommonKit.InitializeStatusType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InitializeStatusType",
+                    "printedName": "EvamiOSCommonKit.InitializeStatusType",
+                    "usr": "s:16EvamiOSCommonKit20InitializeStatusTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.InitializeStatusType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InitializeStatusType",
+                        "printedName": "EvamiOSCommonKit.InitializeStatusType",
+                        "usr": "s:16EvamiOSCommonKit20InitializeStatusTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit20InitializeStatusTypeO7offlineyA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit20InitializeStatusTypeO7offlineyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
             "kind": "Constructor",
             "name": "init",
             "printedName": "init(rawValue:)",
@@ -22126,7 +22163,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"1.6.0\""
+      "value": "\"2.0.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -22615,8 +22652,8 @@
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkManager.swift",
       "kind": "BooleanLiteral",
       "offset": 365,
-      "length": 5,
-      "value": "false"
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/BottomBannerViewController.swift",
@@ -23126,6 +23163,13 @@
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
       "offset": 854,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
+      "kind": "BooleanLiteral",
+      "offset": 988,
       "length": 5,
       "value": "false"
     },

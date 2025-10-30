@@ -383,6 +383,7 @@ public enum InitializeStatusType : Swift.String {
   case initialized
   case notInitialized
   case initializeFailed
+  case offline
   public init?(rawValue: Swift.String)
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
