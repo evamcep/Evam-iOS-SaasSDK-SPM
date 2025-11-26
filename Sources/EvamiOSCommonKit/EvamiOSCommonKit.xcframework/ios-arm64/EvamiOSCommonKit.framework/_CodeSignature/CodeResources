@@ -154,7 +154,7 @@
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		8p9nyg3fOqfg+9oPdX33ByzMQlU=
+		6F6BAsS65zn6IZo+xtAim4C1FIU=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -170,7 +170,7 @@
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		zfIs7fQBqIdopyjU4mSc4/3XBRU=
+		WJxN7cvHtp8Ha35Nr8CCF3gCCqI=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -479,7 +479,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			F2qmtWITzTpO82pq7/lcC/oOUUHozv9cIOy7bDF1JCE=
+			gfYVkqtjsGuVlP9yVhjk193BgbAqd/GXy6GSnhwnRSA=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -507,7 +507,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5TXpTtHRKCBUoTfMZa7BGt5DUKFtK2tT8vdrN6na2pQ=
+			+4bJLQfpiKP7eyOYOvdkNFdbctzu7pEkgnWll2UnZe4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
