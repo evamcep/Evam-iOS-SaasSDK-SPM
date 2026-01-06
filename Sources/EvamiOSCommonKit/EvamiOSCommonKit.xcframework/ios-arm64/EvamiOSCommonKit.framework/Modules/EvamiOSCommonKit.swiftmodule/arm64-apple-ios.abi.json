@@ -22163,7 +22163,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.3.0\""
+      "value": "\"2.4.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -22747,6 +22747,13 @@
       "value": "\"auto\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Infrastructure\/Persistence\/PreferencesTokenStorage.swift",
+      "kind": "StringLiteral",
+      "offset": 243,
+      "length": 31,
+      "value": "\"Evam-PreferencesTokenStorage:\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Extensions\/NotificationExtension.swift",
       "kind": "StringLiteral",
       "offset": 206,
@@ -23169,7 +23176,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 988,
+      "offset": 1038,
       "length": 5,
       "value": "false"
     },
