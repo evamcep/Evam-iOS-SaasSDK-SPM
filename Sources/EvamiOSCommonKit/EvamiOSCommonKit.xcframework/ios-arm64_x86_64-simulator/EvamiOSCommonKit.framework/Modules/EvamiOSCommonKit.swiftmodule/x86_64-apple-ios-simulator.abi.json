@@ -3571,6 +3571,16 @@
       },
       {
         "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "UIKit",
         "printedName": "UIKit",
         "declKind": "Import",
@@ -9162,6 +9172,43 @@
             "declKind": "EnumElement",
             "usr": "s:16EvamiOSCommonKit9InAppTypeO8carouselyA2CmF",
             "mangledName": "$s16EvamiOSCommonKit9InAppTypeO8carouselyA2CmF",
+            "moduleName": "EvamiOSCommonKit"
+          },
+          {
+            "kind": "Var",
+            "name": "inAppEditor",
+            "printedName": "inAppEditor",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(EvamiOSCommonKit.InAppType.Type) -> EvamiOSCommonKit.InAppType",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "InAppType",
+                    "printedName": "EvamiOSCommonKit.InAppType",
+                    "usr": "s:16EvamiOSCommonKit9InAppTypeO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "EvamiOSCommonKit.InAppType.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "InAppType",
+                        "printedName": "EvamiOSCommonKit.InAppType",
+                        "usr": "s:16EvamiOSCommonKit9InAppTypeO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:16EvamiOSCommonKit9InAppTypeO02inE6EditoryA2CmF",
+            "mangledName": "$s16EvamiOSCommonKit9InAppTypeO02inE6EditoryA2CmF",
             "moduleName": "EvamiOSCommonKit"
           },
           {
@@ -14808,6 +14855,16 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -14990,6 +15047,46 @@
         "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
@@ -15511,6 +15608,123 @@
         ]
       },
       {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
         "kind": "TypeDecl",
         "name": "TokenProviderType",
         "printedName": "TokenProviderType",
@@ -16003,6 +16217,304 @@
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
           "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreText",
+        "printedName": "CoreText",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "FlutterFontRegistry",
+        "printedName": "FlutterFontRegistry",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "FlutterFontRegistry",
+                "printedName": "EvamiOSCommonKit.FlutterFontRegistry",
+                "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC6sharedACvpZ",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC6sharedACvpZ",
+            "moduleName": "EvamiOSCommonKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "FlutterFontRegistry",
+                    "printedName": "EvamiOSCommonKit.FlutterFontRegistry",
+                    "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC6sharedACvgZ",
+                "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC6sharedACvgZ",
+                "moduleName": "EvamiOSCommonKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isFlutterEnvironment",
+            "printedName": "isFlutterEnvironment",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC02isD11EnvironmentSbvp",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC02isD11EnvironmentSbvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "SetterAccess",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC02isD11EnvironmentSbvg",
+                "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC02isD11EnvironmentSbvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "register",
+            "printedName": "register(fonts:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC8register5fontsySDyS2SG_tF",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC8register5fontsySDyS2SG_tF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "isRegistered",
+            "printedName": "isRegistered(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC12isRegisteredySbSSF",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC12isRegisteredySbSSF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "registeredFontNames",
+            "printedName": "registeredFontNames()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC010registeredE5NamesSaySSGyF",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC010registeredE5NamesSaySSGyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearAll",
+            "printedName": "clearAll()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC8clearAllyyF",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC8clearAllyyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "clearCache",
+            "printedName": "clearCache()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC10clearCacheyyF",
+            "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC10clearCacheyyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16EvamiOSCommonKit19FlutterFontRegistryC",
+        "mangledName": "$s16EvamiOSCommonKit19FlutterFontRegistryC",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
         ]
       },
       {
@@ -16695,6 +17207,16 @@
         "printedName": "UIKit",
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
       },
       {
         "kind": "Import",
@@ -22159,11 +22681,39 @@
       "value": "\"Evam-QueueManager:\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 525,
+      "length": 8610,
+      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"modal\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#ffffff\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 20,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"margin\": {\n        \"top\": 20,\n        \"right\": 0,\n        \"bottom\": 20,\n        \"left\": 0\n      },\n      \"fontFamily\": \"Roboto\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1763721586324-mkdlqo49i\",\n        \"columns\": [\n          {\n            \"id\": \"1763721586324-9nzua8vgj\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721620826-c0xr9ogid\",\n                \"type\": \"button\",\n                \"content\": \"Link Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"link\": \"https:\/\/www.google.com\",\n                \"fontSize\": 15,\n                \"fontWeight\": \"bold\",\n                \"borderRadius\": 20,\n                \"borderWidth\": 3,\n                \"borderStyle\": \"solid\",\n                \"borderColor\": \"#000000\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\",\n        \"maxContentHeightEnabled\": false\n      },\n      {\n        \"id\": \"1763721628080-5x2y74bkm\",\n        \"columns\": [\n          {\n            \"id\": \"1763721628080-ks3tigamm\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721651594-8nio24dep\",\n                \"type\": \"text\",\n                \"content\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                }\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\",\n        \"maxContentHeightEnabled\": true,\n        \"maxContentHeight\": 50\n      },\n      {\n        \"id\": \"1763721656991-1qvv1pn7d\",\n        \"columns\": [\n          {\n            \"id\": \"1763721656991-4z28r6m9d\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721659935-sbbqk2yt8\",\n                \"type\": \"button\",\n                \"content\": \"Deep Link Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"deep link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 4,\n                \"link\": \"Evam:\/\/Menu?id=3\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:53.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 9239,
+      "length": 10239,
+      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"full-screen\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#fcfcfcF7\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 17,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"fontFamily\": \"Roboto, sans-serif\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"https:\/\/img.freepik.com\/premium-photo\/smooth-gradient-from-dark-blue-light-blue-white_1332213-19584.jpg\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1764249528277-6khkcg9o2\",\n        \"columns\": [\n          {\n            \"id\": \"1764249528277-6nuyowrd4\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249540891-thkr3kns2\",\n                \"type\": \"image\",\n                \"imageUrl\": \"https:\/\/cms.evam.com\/Uploads\/58a98fa2b3f542d4bee70d3ad79a2401.png\",\n                \"borderRadius\": 4,\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                }\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249583832-xod4ymtss\",\n        \"columns\": [\n          {\n            \"id\": \"1764249583832-fyi10y6mz\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249588284-orog112ts\",\n                \"type\": \"text\",\n                \"content\": \"Evam App\",\n                \"margin\": {\n                  \"top\": 20,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 50,\n                \"fontWeight\": \"bold\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 40,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249871833-5n63czfof\",\n        \"columns\": [\n          {\n            \"id\": \"1764249871833-q7784okec\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249875294-wb4xvtzzb\",\n                \"type\": \"text\",\n                \"content\": \"★ ★ ★ ★ ★ \",\n                \"margin\": {\n                  \"top\": 30,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 30\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249908715-2qhzftx46\",\n        \"columns\": [\n          {\n            \"id\": \"1764249908715-1q74b8s7v\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249913154-k2ypah3j0\",\n                \"type\": \"text\",\n                \"content\": \"Best app for your company\",\n                \"margin\": {\n                  \"top\": 30,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 29\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249940702-9dgw8l9ih\",\n        \"columns\": [\n          {\n            \"id\": \"1764249940702-qz7cxdzjr\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764251200547-wpaiytgfx\",\n                \"type\": \"button\",\n                \"content\": \"Download\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"none\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 100,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 15,\n                \"fontSize\": 15,\n                \"fontWeight\": \"bold\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 100,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:53.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 19586,
+      "length": 7024,
+      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"top-banner\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#ffffff\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 20,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"margin\": {\n        \"top\": 32,\n        \"right\": 16,\n        \"bottom\": 16,\n        \"left\": 16\n      },\n      \"fontFamily\": \"Roboto, sans-serif\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"buttonLinkType\": \"NONE\",\n      \"buttonLink\": \"\",\n      \"heightPercentage\": 20\n    },\n    \"rows\": [\n      {\n        \"id\": \"1765782635418-e6t8y1oyl\",\n        \"columns\": [\n          {\n            \"id\": \"1765782635418-zoxc090sx\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1765782661387-w3z3pmy1z\",\n                \"type\": \"button\",\n                \"content\": \"Send Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"none\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 12,\n                \"fontWeight\": \"normal\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1765782659265-a7sm6h862\",\n        \"columns\": [\n          {\n            \"id\": \"1765782659265-ddcrsjt93\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1765782705390-duriydhrb\",\n                \"type\": \"text\",\n                \"content\": \"leftt\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"500\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1765782689152-2yy5q7xst\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1765782721566-lswm3r27d\",\n                \"type\": \"text\",\n                \"content\": \"rightt\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"500\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:22.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 26667,
+      "length": 8122,
+      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"bottom-banner\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#4e371dF7\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 17,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"fontFamily\": \"Roboto\",\n      \"fontData\": {\n        \"fontFamily\": \"Raleway, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Raleway\",\n          \"value\": \"Raleway, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"200\",\n              \"style\": \"normal\",\n              \"display\": \"Extra Light\"\n            },\n            {\n              \"weight\": \"200\",\n              \"style\": \"italic\",\n              \"display\": \"Extra Light Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"600\",\n              \"style\": \"normal\",\n              \"display\": \"Semi Bold\"\n            },\n            {\n              \"weight\": \"600\",\n              \"style\": \"italic\",\n              \"display\": \"Semi Bold Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"800\",\n              \"style\": \"normal\",\n              \"display\": \"Extra Bold\"\n            },\n            {\n              \"weight\": \"800\",\n              \"style\": \"italic\",\n              \"display\": \"Extra Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"https:\/\/subsonic.com\/c\/23-category_default\/black-friday.jpg\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1764271179763-z8797g3mi\",\n        \"columns\": [\n          {\n            \"id\": \"1764271179763-kpkns4j8r\",\n            \"width\": 50,\n            \"items\": [],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1764271185879-78u4qrduk\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1764271190872-rf1kgseah\",\n                \"type\": \"text\",\n                \"content\": \"Tap to claim your Black Friday coupon\n\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 10\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"bold\",\n                \"color\": \"#FFFFFF\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 12\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764271210324-utzkj85qe\",\n        \"columns\": [\n          {\n            \"id\": \"1764271210324-otn4sm9tw\",\n            \"width\": 50,\n            \"items\": [],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1764271211969-uql9o954o\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1764271214466-y87av60k8\",\n                \"type\": \"button\",\n                \"content\": \"Coupon\",\n                \"backgroundColor\": \"#ff0000FF\",\n                \"color\": \"#000000FF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 15,\n                \"borderWidth\": 3,\n                \"borderStyle\": \"dotted\",\n                \"fontSize\": 20,\n                \"fontWeight\": \"bold\",\n                \"borderColor\": \"#000000FF\",\n                \"link\": \"https:\/\/www.evam.com\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:22.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.4.0\""
+      "value": "\"2.5.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -22385,133 +22935,140 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 2033,
+      "offset": 2199,
       "length": 7,
       "value": "\"READY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 2057,
+      "offset": 2223,
       "length": 6,
       "value": "\"USED\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4933,
+      "offset": 5099,
       "length": 8,
       "value": "\"MINUTE\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4958,
+      "offset": 5124,
       "length": 6,
       "value": "\"HOUR\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 4980,
+      "offset": 5146,
       "length": 5,
       "value": "\"DAY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5002,
+      "offset": 5168,
       "length": 6,
       "value": "\"WEEK\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5026,
+      "offset": 5192,
       "length": 7,
       "value": "\"MONTH\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5117,
+      "offset": 5283,
       "length": 7,
       "value": "\"POPUP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5143,
+      "offset": 5309,
       "length": 8,
       "value": "\"SURVEY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5170,
+      "offset": 5336,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5199,
+      "offset": 5365,
       "length": 10,
       "value": "\"CAROUSEL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5555,
+      "offset": 5399,
+      "length": 15,
+      "value": "\"IN_APP_EDITOR\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
+      "kind": "StringLiteral",
+      "offset": 5760,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5586,
+      "offset": 5791,
       "length": 7,
       "value": "\"MODAL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5609,
+      "offset": 5814,
       "length": 5,
       "value": "\"TOP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5633,
+      "offset": 5838,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5662,
+      "offset": 5867,
       "length": 10,
       "value": "\"CAROUSEL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 6044,
+      "offset": 6249,
       "length": 6,
       "value": "\"DEEP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 6058,
+      "offset": 6263,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "BooleanLiteral",
-      "offset": 6919,
+      "offset": 7124,
       "length": 5,
       "value": "false"
     },
@@ -22894,6 +23451,174 @@
       "value": "[]"
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 430,
+      "length": 29,
+      "value": "\"Evam-CustomInAppImageCache:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 645,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 764,
+      "length": 2,
+      "value": "50"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 769,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 776,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 898,
+      "length": 1,
+      "value": "7"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 902,
+      "length": 2,
+      "value": "24"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 907,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 912,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1028,
+      "length": 3,
+      "value": "100"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1034,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1041,
+      "length": 4,
+      "value": "1024"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 1332,
+      "length": 33,
+      "value": "\"com.evam.customInApp.imageCache\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "Dictionary",
+      "offset": 1545,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 1602,
+      "length": 36,
+      "value": "\"com.evam.customInApp.imageDownload\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 1878,
+      "length": 17,
+      "value": "\"EvamInAppImages\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1910,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2058,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6471,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "Array",
+      "offset": 6511,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 7476,
+      "length": 49,
+      "value": "\"Disk cache size exceeded, cleaning oldest files\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "IntegerLiteral",
+      "offset": 8268,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 8652,
+      "length": 75,
+      "value": "\"Disk cache cleanup completed. Removed \""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppImageCache.swift",
+      "kind": "StringLiteral",
+      "offset": 8712,
+      "length": 7,
+      "value": "\" expired files\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "StringLiteral",
       "offset": 273,
@@ -23041,6 +23766,552 @@
       "value": "\"\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppParser.swift",
+      "kind": "StringLiteral",
+      "offset": 504,
+      "length": 25,
+      "value": "\"Evam-CustomInAppParser:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 316,
+      "length": 7,
+      "value": "\"modal\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 346,
+      "length": 13,
+      "value": "\"full-screen\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 381,
+      "length": 12,
+      "value": "\"top-banner\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 418,
+      "length": 15,
+      "value": "\"bottom-banner\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 847,
+      "length": 6,
+      "value": "\"text\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 872,
+      "length": 8,
+      "value": "\"button\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 898,
+      "length": 7,
+      "value": "\"image\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1344,
+      "length": 15,
+      "value": "\"top-to-bottom\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1383,
+      "length": 15,
+      "value": "\"left-to-right\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1820,
+      "length": 6,
+      "value": "\"left\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1845,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1871,
+      "length": 7,
+      "value": "\"right\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 1898,
+      "length": 9,
+      "value": "\"justify\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2354,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2379,
+      "length": 6,
+      "value": "\"bold\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2402,
+      "length": 5,
+      "value": "\"100\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2430,
+      "length": 5,
+      "value": "\"200\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2453,
+      "length": 5,
+      "value": "\"300\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2478,
+      "length": 5,
+      "value": "\"400\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2502,
+      "length": 5,
+      "value": "\"500\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2528,
+      "length": 5,
+      "value": "\"600\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2553,
+      "length": 5,
+      "value": "\"700\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2580,
+      "length": 5,
+      "value": "\"800\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 2603,
+      "length": 5,
+      "value": "\"900\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3469,
+      "length": 8,
+      "value": "\"normal\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3496,
+      "length": 8,
+      "value": "\"italic\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3936,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3964,
+      "length": 11,
+      "value": "\"underline\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 3996,
+      "length": 10,
+      "value": "\"overline\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4030,
+      "length": 14,
+      "value": "\"line-through\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4463,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4490,
+      "length": 10,
+      "value": "\"external\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4523,
+      "length": 10,
+      "value": "\"internal\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4554,
+      "length": 11,
+      "value": "\"deep link\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 4582,
+      "length": 6,
+      "value": "\"link\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 5873,
+      "length": 6,
+      "value": "\"none\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 5897,
+      "length": 7,
+      "value": "\"solid\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 5923,
+      "length": 8,
+      "value": "\"dashed\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 5950,
+      "length": 8,
+      "value": "\"dotted\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6354,
+      "length": 5,
+      "value": "\"fit\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6376,
+      "length": 6,
+      "value": "\"fill\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6401,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6426,
+      "length": 6,
+      "value": "\"crop\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6822,
+      "length": 5,
+      "value": "\"top\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6846,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 6873,
+      "length": 8,
+      "value": "\"bottom\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7284,
+      "length": 6,
+      "value": "\"left\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7309,
+      "length": 8,
+      "value": "\"center\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7335,
+      "length": 7,
+      "value": "\"right\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7775,
+      "length": 12,
+      "value": "\"sans-serif\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7805,
+      "length": 7,
+      "value": "\"serif\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7834,
+      "length": 11,
+      "value": "\"monospace\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7865,
+      "length": 9,
+      "value": "\"cursive\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 7894,
+      "length": 9,
+      "value": "\"fantasy\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8301,
+      "length": 6,
+      "value": "\"auto\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8324,
+      "length": 6,
+      "value": "\"full\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8354,
+      "length": 14,
+      "value": "\"match_parent\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8392,
+      "length": 14,
+      "value": "\"wrap_content\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8799,
+      "length": 6,
+      "value": "\"16:9\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8826,
+      "length": 5,
+      "value": "\"4:3\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8852,
+      "length": 5,
+      "value": "\"1:1\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 8878,
+      "length": 5,
+      "value": "\"3:2\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9579,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9612,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9643,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9680,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9716,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "FloatLiteral",
+      "offset": 9755,
+      "length": 3,
+      "value": "1.5"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 9799,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "FloatLiteral",
+      "offset": 10012,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10206,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10361,
+      "length": 2,
+      "value": "32"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 10483,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 10642,
+      "length": 11,
+      "value": "\"#00000000\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 10677,
+      "length": 9,
+      "value": "\"#FFFFFF\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 10710,
+      "length": 9,
+      "value": "\"#000000\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/InApp\/CustomInApp\/CustomInAppEnums.swift",
+      "kind": "StringLiteral",
+      "offset": 10745,
+      "length": 9,
+      "value": "\"#FE5000\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
       "offset": 172,
@@ -23179,6 +24450,419 @@
       "offset": 1038,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppButtonComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14196,
+      "length": 1,
+      "value": "8"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppColorHelper.swift",
+      "kind": "StringLiteral",
+      "offset": 447,
+      "length": 30,
+      "value": "\"Evam-CustomInAppColorHelper:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppColorHelper.swift",
+      "kind": "Dictionary",
+      "offset": 590,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Renderer\/CustomInAppColumnRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 406,
+      "length": 33,
+      "value": "\"Evam-CustomInAppColumnRenderer:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Renderer\/CustomInAppColumnRenderer.swift",
+      "kind": "Array",
+      "offset": 646,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1200,
+      "length": 11,
+      "value": "\"Open Sans\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1227,
+      "length": 33,
+      "value": "\"OpenSans-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1276,
+      "length": 40,
+      "value": "\"OpenSans-Italic-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1332,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1371,
+      "length": 8,
+      "value": "\"Roboto\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1398,
+      "length": 31,
+      "value": "\"Roboto-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1447,
+      "length": 38,
+      "value": "\"Roboto-Italic-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1503,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1542,
+      "length": 6,
+      "value": "\"Lora\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1569,
+      "length": 24,
+      "value": "\"Lora-VariableFont_wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1617,
+      "length": 31,
+      "value": "\"Lora-Italic-VariableFont_wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1674,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1713,
+      "length": 15,
+      "value": "\"Shantell Sans\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1742,
+      "length": 37,
+      "value": "\"ShantellSans-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1793,
+      "length": 44,
+      "value": "\"ShantellSans-Italic-VariableFont_wdth,wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1851,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1890,
+      "length": 12,
+      "value": "\"Montserrat\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1916,
+      "length": 30,
+      "value": "\"Montserrat-VariableFont_wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1960,
+      "length": 37,
+      "value": "\"Montserrat-Italic-VariableFont_wght\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2011,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "StringLiteral",
+      "offset": 3177,
+      "length": 30,
+      "value": "\"Evam-CustomInAppFontManager:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "Dictionary",
+      "offset": 3468,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "Dictionary",
+      "offset": 3561,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "Dictionary",
+      "offset": 3766,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppFontManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3978,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 420,
+      "length": 21,
+      "value": "\"Evam-CustomInAppVC:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 783,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1062,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1126,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1312,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1369,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1438,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "StringLiteral",
+      "offset": 1619,
+      "length": 7,
+      "value": "\"xmark\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1742,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2075,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2310,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2321,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 2365,
+      "length": 3,
+      "value": "0.6"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2409,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2965,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3032,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 397,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1151,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "StringLiteral",
+      "offset": 1914,
+      "length": 33,
+      "value": "\"Evam-CustomInAppImageComponent:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 2808,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2848,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2887,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17622,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "BooleanLiteral",
+      "offset": 17668,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppImageComponent.swift",
+      "kind": "IntegerLiteral",
+      "offset": 21076,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppLayoutHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3947,
+      "length": 2,
+      "value": "16"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppLayoutHelper.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3980,
+      "length": 2,
+      "value": "48"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppItemFactory.swift",
+      "kind": "StringLiteral",
+      "offset": 410,
+      "length": 30,
+      "value": "\"Evam-CustomInAppItemFactory:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Renderer\/CustomInAppRowRenderer.swift",
+      "kind": "StringLiteral",
+      "offset": 397,
+      "length": 30,
+      "value": "\"Evam-CustomInAppRowRenderer:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Support\/MockData\/Event\/EventMockData.swift",
@@ -23333,6 +25017,55 @@
       "offset": 546,
       "length": 19,
       "value": "\"not-before-policy\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "StringLiteral",
+      "offset": 993,
+      "length": 27,
+      "value": "\"Evam-FlutterFontRegistry:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "Dictionary",
+      "offset": 1179,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "Dictionary",
+      "offset": 1293,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "Dictionary",
+      "offset": 1388,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "Dictionary",
+      "offset": 1533,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "Dictionary",
+      "offset": 1649,
+      "length": 3,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/FlutterFontRegistry.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1775,
+      "length": 5,
+      "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/FullScreenManager.swift",
@@ -23578,6 +25311,20 @@
       "offset": 3801,
       "length": 5,
       "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppManager.swift",
+      "kind": "StringLiteral",
+      "offset": 435,
+      "length": 26,
+      "value": "\"Evam-CustomInAppManager:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1459,
+      "length": 4,
+      "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Enums\/Status\/NetworkCapability.swift",

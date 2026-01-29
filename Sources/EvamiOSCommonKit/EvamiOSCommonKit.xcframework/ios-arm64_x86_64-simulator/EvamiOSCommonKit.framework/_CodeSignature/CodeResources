@@ -112,6 +112,14 @@
 		<data>
 		EkCY87WMoeZGXNTumPAXZBLnguA=
 		</data>
+		<key>Lora-Italic-VariableFont_wght.ttf</key>
+		<data>
+		etsRa0SEOZLsKnK21UGJFIH6C+g=
+		</data>
+		<key>Lora-VariableFont_wght.ttf</key>
+		<data>
+		Or47bd5N1ecMdQc96arQ2mWOZR0=
+		</data>
 		<key>ModalPopupController.storyboardc/Info.plist</key>
 		<data>
 		Q149rW9HGIFdSLt5pJbwSe54ipI=
@@ -154,47 +162,79 @@
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.abi.json</key>
 		<data>
-		gswCr6wkQDoded9wwaXk9n/kKPE=
+		DJKi0nCC3nvW+x+sXR/dDPUdROE=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		PCUgEhu1z2NuVvjAWKNsKNdTmeM=
+		Mr0h4hgaFFTlggM6FIVM+Cx1V18=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		qYCS6+FX3EhQNa50un9akMRwgA8=
+		MsCpiiLlqphvj6qnV6Kj49kuZzU=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		PCUgEhu1z2NuVvjAWKNsKNdTmeM=
+		Mr0h4hgaFFTlggM6FIVM+Cx1V18=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		dpe74UOhMOOqBfhfXAcq5VcsKKo=
+		fIckUSnw3C2k1Pgns4DGMfKeZTI=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<data>
-		gswCr6wkQDoded9wwaXk9n/kKPE=
+		DJKi0nCC3nvW+x+sXR/dDPUdROE=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<data>
-		/plR6juE0pFsxIFxNYJkDISJjGw=
+		R5SDvC8l35rcIVAqJHuJzrZMLPw=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<data>
-		B1cDvwlqbSbtzPWwFtAPbBWKTRY=
+		kXMyoZ7tnPqkLQ0YXXdraZKMgag=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<data>
-		/plR6juE0pFsxIFxNYJkDISJjGw=
+		R5SDvC8l35rcIVAqJHuJzrZMLPw=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<data>
-		EvoWDiRMljZsYi78a9suwCJS9mY=
+		hUAlrDDhsbtBvhDrz9Km1ppZrj0=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
 		2hSQYeaNIYi8RqQiSytO6kPjXCk=
+		</data>
+		<key>Montserrat-Italic-VariableFont_wght.ttf</key>
+		<data>
+		2eRazKjvyMUgjmytJ5vqztZDBJ8=
+		</data>
+		<key>Montserrat-VariableFont_wght.ttf</key>
+		<data>
+		qRfGUAU5XSWwFxPG5Nbq5U+4CtE=
+		</data>
+		<key>OpenSans-Italic-VariableFont_wdth,wght.ttf</key>
+		<data>
+		OhRMkk1XtRgKzndzWqELAHQtc2I=
+		</data>
+		<key>OpenSans-VariableFont_wdth,wght.ttf</key>
+		<data>
+		9g16jT6WTYlN3yYoUIxb8B5rYjk=
+		</data>
+		<key>Roboto-Italic-VariableFont_wdth,wght.ttf</key>
+		<data>
+		61HWBC9na3NqVSdEp33DUtkqCOE=
+		</data>
+		<key>Roboto-VariableFont_wdth,wght.ttf</key>
+		<data>
+		a9lkarIsAwHOOtv+hwchOmeQBAQ=
+		</data>
+		<key>ShantellSans-Italic-VariableFont_wdth,wght.ttf</key>
+		<data>
+		2iHpwDe2u9/TbTQrzjbl+ehK/sw=
+		</data>
+		<key>ShantellSans-VariableFont_wdth,wght.ttf</key>
+		<data>
+		yqWBRG5oZxczUGpCK7NTRshiPgQ=
 		</data>
 		<key>TitleTableViewCell.nib</key>
 		<data>
@@ -425,6 +465,20 @@
 			TGQIQ9m11zq3LSZysjGTB0fKDLiPrXMiT0PIZC1Tmmk=
 			</data>
 		</dict>
+		<key>Lora-Italic-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			/iT/uJLv34g/cIv8RFynbwDh7hwzRHmSKzYQl3l5Lzk=
+			</data>
+		</dict>
+		<key>Lora-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			U8aBf3aCivCNSct3yYlMtpjJKeF/8sLYGqNMhuJSTB8=
+			</data>
+		</dict>
 		<key>ModalPopupController.storyboardc/Info.plist</key>
 		<dict>
 			<key>hash2</key>
@@ -499,70 +553,70 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			i61dmSkEpBLJWoI+cuDVPH/50H3zzs3IcgogTleXCd0=
+			ZbYvt9MlHwwCutR5VS2feXJ+gITGK55OYgoVi+tQ7b4=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/vxbAir6b+4UPdRBv97AyAHbsUHt+wnZbxGyNIxoHM=
+			f/xJz8CzhCIkOEdPuzT+RRd3TtbFSTYUnBHUs0Lnrzc=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Qx5PDRzttza+7ACk2BwjXinE9zDFqvwGEAg7B8dck80=
+			Odh4hsay0umocVVqydTPxgxnvvgINSpHOffzNifG09o=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J/vxbAir6b+4UPdRBv97AyAHbsUHt+wnZbxGyNIxoHM=
+			f/xJz8CzhCIkOEdPuzT+RRd3TtbFSTYUnBHUs0Lnrzc=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Mn6uUogJwWBp8E1inEnTu31X0e9DognQYooDrhFtmwc=
+			Goc2hYs2ZIrAC8Pndhbz/RtPkKOa6QAlZVZKQ+PByI0=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.abi.json</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			i61dmSkEpBLJWoI+cuDVPH/50H3zzs3IcgogTleXCd0=
+			ZbYvt9MlHwwCutR5VS2feXJ+gITGK55OYgoVi+tQ7b4=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NL0cOyntcS8NNitGIHo8BubcD24YuCSub1mvvZuvVxs=
+			/h0/dVR6cQHjKcL1zDPxq0e2ZJSSpoH5nKO9/1XVNGI=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			uLWNPM2DN3P8UuaSbmAosoz6iq0nF5BPvAMcadMwX0g=
+			WS3o0kwSFKOhd0vlKvK60vB2Kzew+ZQ61maxC0LIUR4=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NL0cOyntcS8NNitGIHo8BubcD24YuCSub1mvvZuvVxs=
+			/h0/dVR6cQHjKcL1zDPxq0e2ZJSSpoH5nKO9/1XVNGI=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/x86_64-apple-ios-simulator.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6IXWBFYbDBdq1e6YEhSeR6eh88msSUgtfW4uzE1a2Jc=
+			H5rX3IQE3Pn12FWnKnejiKUQ7jj8+wmUiWsUtxh6j08=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -570,6 +624,62 @@
 			<key>hash2</key>
 			<data>
 			Q4eZGRjBXaSmsu2Y6aiaLeF9PFBx0wsthp8Vw4v/Jug=
+			</data>
+		</dict>
+		<key>Montserrat-Italic-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Il2n0yVaqsmra+9xvyfMv6sLZaWKawo9XBTCbN2YhpE=
+			</data>
+		</dict>
+		<key>Montserrat-VariableFont_wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			SY3DTQ+kUojgrFNFvThcmL+BxW7nAgmqz7SiKmUQaXw=
+			</data>
+		</dict>
+		<key>OpenSans-Italic-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			cSiKYqaKDkAyLx5iUiW9Ih+CyNNBzaPAU4KPEPb7jRI=
+			</data>
+		</dict>
+		<key>OpenSans-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F3NZ3/UBcGYwHP9yZLhoUbYLaGKGNiVQFdHbN7VLNE0=
+			</data>
+		</dict>
+		<key>Roboto-Italic-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			HT+WXuXGjAB9z1X9cSJn2AJfkrZpjovBP3b4O5t4Quc=
+			</data>
+		</dict>
+		<key>Roboto-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			slmG0Ycwlgx7JzhKsrxQCFauf+nnHJhQAZGV/5AZ8LI=
+			</data>
+		</dict>
+		<key>ShantellSans-Italic-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			5U9QSnX3FZgrIQAFYSW33pYb4O4z4pMOFGV3vSNDq1k=
+			</data>
+		</dict>
+		<key>ShantellSans-VariableFont_wdth,wght.ttf</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			8YB4LESvXk8xJkUStCbcAQ//63KLPPtWiVQbRp83zf0=
 			</data>
 		</dict>
 		<key>TitleTableViewCell.nib</key>
