@@ -12969,6 +12969,1011 @@
       },
       {
         "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoPageTracker",
+        "printedName": "AutoPageTracker",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "shared",
+            "printedName": "shared",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoPageTracker",
+                "printedName": "EvamiOSCommonKit.AutoPageTracker",
+                "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC6sharedACvpZ",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC6sharedACvpZ",
+            "moduleName": "EvamiOSCommonKit",
+            "static": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Final",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoPageTracker",
+                    "printedName": "EvamiOSCommonKit.AutoPageTracker",
+                    "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC6sharedACvgZ",
+                "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC6sharedACvgZ",
+                "moduleName": "EvamiOSCommonKit",
+                "static": true,
+                "implicit": true,
+                "declAttributes": [
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "start",
+            "printedName": "start(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutoPageTrackingConfig",
+                "printedName": "EvamiOSCommonKit.AutoPageTrackingConfig",
+                "hasDefaultArg": true,
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC5start4withSbAA0dE14TrackingConfigV_tF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC5start4withSbAA0dE14TrackingConfigV_tF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "DiscardableResult",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stop",
+            "printedName": "stop()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC4stopyyF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC4stopyyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "resume",
+            "printedName": "resume()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC6resumeyyF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC6resumeyyF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "updateConfig",
+            "printedName": "updateConfig(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AutoPageTrackingConfig",
+                "printedName": "EvamiOSCommonKit.AutoPageTrackingConfig",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC12updateConfigyyAA0de8TrackingH0VF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC12updateConfigyyAA0de8TrackingH0VF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "addIgnoredClass",
+            "printedName": "addIgnoredClass(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC15addIgnoredClassyyyXlXpF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC15addIgnoredClassyyyXlXpF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "removeIgnoredClass",
+            "printedName": "removeIgnoredClass(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "ExistentialMetatype",
+                "printedName": "any AnyObject.Type",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "AnyObject"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC18removeIgnoredClassyyyXlXpF",
+            "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC18removeIgnoredClassyyyXlXpF",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "Final",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:16EvamiOSCommonKit15AutoPageTrackerC",
+        "mangledName": "$s16EvamiOSCommonKit15AutoPageTrackerC",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "Final",
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "hasMissingDesignatedInitializers": true,
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "ObjectiveC",
+        "printedName": "ObjectiveC",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "AutoPageTrackingConfig",
+        "printedName": "AutoPageTrackingConfig",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "isEnabled",
+            "printedName": "isEnabled",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvp",
+            "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvg",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvs",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvM",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabledSbvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ignoredControllerClasses",
+            "printedName": "ignoredControllerClasses",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any AnyObject.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvp",
+            "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any AnyObject.Type]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "any AnyObject.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvg",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[any AnyObject.Type]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ExistentialMetatype",
+                        "printedName": "any AnyObject.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "ProtocolComposition",
+                            "printedName": "AnyObject"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvs",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvM",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV24ignoredControllerClassesSayyXlXpGvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ignoredBundlePrefixes",
+            "printedName": "ignoredBundlePrefixes",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvp",
+            "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvg",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[Swift.String]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvs",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvM",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV21ignoredBundlePrefixesSaySSGvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "ignorePredicate",
+            "printedName": "ignorePredicate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIViewController) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvp",
+            "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvp",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "HasInitialValue",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIViewController) -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIViewController) -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvg",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvg",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "((UIKit.UIViewController) -> Swift.Bool)?",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(UIKit.UIViewController) -> Swift.Bool",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Bool",
+                            "printedName": "Swift.Bool",
+                            "usr": "s:Sb"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          }
+                        ]
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvs",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvs",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvM",
+                "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV15ignorePredicateSbSo16UIViewControllerCcSgvM",
+                "moduleName": "EvamiOSCommonKit",
+                "implicit": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(isEnabled:ignoredControllerClasses:ignoredBundlePrefixes:ignorePredicate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "AutoPageTrackingConfig",
+                "printedName": "EvamiOSCommonKit.AutoPageTrackingConfig",
+                "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[any AnyObject.Type]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ExistentialMetatype",
+                    "printedName": "any AnyObject.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "AnyObject"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[Swift.String]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "((UIKit.UIViewController) -> Swift.Bool)?",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UIKit.UIViewController) -> Swift.Bool",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Bool",
+                        "printedName": "Swift.Bool",
+                        "usr": "s:Sb"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ]
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabled24ignoredControllerClasses0J14BundlePrefixes15ignorePredicateACSb_SayyXlXpGSaySSGSbSo06UIViewK0CcSgtcfc",
+            "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV9isEnabled24ignoredControllerClasses0J14BundlePrefixes15ignorePredicateACSb_SayyXlXpGSaySSGSbSo06UIViewK0CcSgtcfc",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Struct",
+        "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV",
+        "mangledName": "$s16EvamiOSCommonKit22AutoPageTrackingConfigV",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "EvamPageIdentifiable",
+        "printedName": "EvamPageIdentifiable",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "evamPageIdentifier",
+            "printedName": "evamPageIdentifier",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "c:@M@EvamiOSCommonKit@objc(pl)EvamPageIdentifiable(py)evamPageIdentifier",
+            "mangledName": "$s16EvamiOSCommonKit20EvamPageIdentifiableP04evamE10IdentifierSSvp",
+            "moduleName": "EvamiOSCommonKit",
+            "protocolReq": true,
+            "declAttributes": [
+              "RawDocComment",
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "c:@M@EvamiOSCommonKit@objc(pl)EvamPageIdentifiable(im)evamPageIdentifier",
+                "mangledName": "$s16EvamiOSCommonKit20EvamPageIdentifiableP04evamE10IdentifierSSvg",
+                "moduleName": "EvamiOSCommonKit",
+                "genericSig": "<τ_0_0 where τ_0_0 : EvamiOSCommonKit.EvamPageIdentifiable>",
+                "sugared_genericSig": "<Self where Self : EvamiOSCommonKit.EvamPageIdentifiable>",
+                "protocolReq": true,
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "reqNewWitnessTableEntry": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@EvamiOSCommonKit@objc(pl)EvamPageIdentifiable",
+        "mangledName": "$s16EvamiOSCommonKit20EvamPageIdentifiableP",
+        "moduleName": "EvamiOSCommonKit",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC",
+          "RawDocComment"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Escapable",
+            "printedName": "Escapable",
+            "usr": "s:s9EscapableP",
+            "mangledName": "$ss9EscapableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Copyable",
+            "printedName": "Copyable",
+            "usr": "s:s8CopyableP",
+            "mangledName": "$ss8CopyableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
         "name": "Foundation",
         "printedName": "Foundation",
         "declKind": "Import",
@@ -15956,7 +16961,7 @@
           {
             "kind": "Constructor",
             "name": "init",
-            "printedName": "init(bundle:applicationName:actorId:domainUrl:authorization:clientId:clientSecret:topPadding:bottomPadding:applicationLifecyleAuto:isSendActivityLifeCycleEventEnabled:forceInitialize:designConfig:)",
+            "printedName": "init(bundle:applicationName:actorId:domainUrl:authorization:clientId:clientSecret:topPadding:bottomPadding:applicationLifecyleAuto:isAutoPageTrackingEnabled:autoPageTrackingConfig:forceInitialize:designConfig:)",
             "children": [
               {
                 "kind": "TypeNominal",
@@ -16097,6 +17102,194 @@
               },
               {
                 "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EvamiOSCommonKit.AutoPageTrackingConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "AutoPageTrackingConfig",
+                    "printedName": "EvamiOSCommonKit.AutoPageTrackingConfig",
+                    "usr": "s:16EvamiOSCommonKit22AutoPageTrackingConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "EvamiOSCommonKit.EvamDesignConfig?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "EvamDesignConfig",
+                    "printedName": "EvamiOSCommonKit.EvamDesignConfig",
+                    "usr": "s:16EvamiOSCommonKit16EvamDesignConfigV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:16EvamiOSCommonKit14EvamInitConfigV6bundle15applicationName7actorId9domainUrl13authorization06clientK00O6Secret10topPadding06bottomR00H12LifecyleAuto02isU19PageTrackingEnabled04autowxF015forceInitialize06designF0ACSo8NSBundleC_S2SSgA4T14CoreFoundation7CGFloatVSgAXS2bAA0uwxF0VSgSbAA0d6DesignF0VSgtcfc",
+            "mangledName": "$s16EvamiOSCommonKit14EvamInitConfigV6bundle15applicationName7actorId9domainUrl13authorization06clientK00O6Secret10topPadding06bottomR00H12LifecyleAuto02isU19PageTrackingEnabled04autowxF015forceInitialize06designF0ACSo8NSBundleC_S2SSgA4T12CoreGraphics7CGFloatVSgAXS2bAA0uwxF0VSgSbAA0d6DesignF0VSgtcfc",
+            "moduleName": "EvamiOSCommonKit",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(bundle:applicationName:actorId:domainUrl:authorization:clientId:clientSecret:topPadding:bottomPadding:applicationLifecyleAuto:isSendActivityLifeCycleEventEnabled:forceInitialize:designConfig:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "EvamInitConfig",
+                "printedName": "EvamiOSCommonKit.EvamInitConfig",
+                "usr": "s:16EvamiOSCommonKit14EvamInitConfigV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bundle",
+                "printedName": "Foundation.Bundle",
+                "usr": "c:objc(cs)NSBundle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreGraphics.CGFloat?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CGFloat",
+                    "printedName": "CoreGraphics.CGFloat",
+                    "usr": "s:14CoreFoundation7CGFloatV"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "hasDefaultArg": true,
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
                 "name": "Bool",
                 "printedName": "Swift.Bool",
                 "hasDefaultArg": true,
@@ -16122,8 +17315,11 @@
             "usr": "s:16EvamiOSCommonKit14EvamInitConfigV6bundle15applicationName7actorId9domainUrl13authorization06clientK00O6Secret10topPadding06bottomR00H12LifecyleAuto35isSendActivityLifeCycleEventEnabled15forceInitialize06designF0ACSo8NSBundleC_S2SSgA4S14CoreFoundation7CGFloatVSgAWS3bAA0d6DesignF0VSgtcfc",
             "mangledName": "$s16EvamiOSCommonKit14EvamInitConfigV6bundle15applicationName7actorId9domainUrl13authorization06clientK00O6Secret10topPadding06bottomR00H12LifecyleAuto35isSendActivityLifeCycleEventEnabled15forceInitialize06designF0ACSo8NSBundleC_S2SSgA4S12CoreGraphics7CGFloatVSgAWS3bAA0d6DesignF0VSgtcfc",
             "moduleName": "EvamiOSCommonKit",
+            "deprecated": true,
             "declAttributes": [
-              "AccessControl"
+              "AccessControl",
+              "Available",
+              "RawDocComment"
             ],
             "init_kind": "Designated"
           }
@@ -16583,13 +17779,6 @@
       },
       {
         "kind": "Import",
-        "name": "Foundation",
-        "printedName": "Foundation",
-        "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
-      },
-      {
-        "kind": "Import",
         "name": "SwiftUI",
         "printedName": "SwiftUI",
         "declKind": "Import",
@@ -16850,11 +18039,14 @@
         "usr": "c:@M@EvamiOSCommonKit@objc(cs)EvamViewController",
         "mangledName": "$s16EvamiOSCommonKit18EvamViewControllerC",
         "moduleName": "EvamiOSCommonKit",
+        "deprecated": true,
         "isOpen": true,
         "declAttributes": [
           "Preconcurrency",
           "Custom",
           "AccessControl",
+          "Available",
+          "RawDocComment",
           "ObjC"
         ],
         "superclassUsr": "c:objc(cs)UIViewController",
@@ -22713,7 +23905,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.5.0\""
+      "value": "\"2.6.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -23239,6 +24431,111 @@
       "offset": 232,
       "length": 4,
       "value": "3000"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTracker.swift",
+      "kind": "StringLiteral",
+      "offset": 842,
+      "length": 23,
+      "value": "\"Evam-AutoPageTracker:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 990,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTracker.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5111,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/UIViewController+Swizzling.swift",
+      "kind": "BooleanLiteral",
+      "offset": 551,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/UIViewController+Swizzling.swift",
+      "kind": "StringLiteral",
+      "offset": 1731,
+      "length": 67,
+      "value": "\"UIViewController swizzling installed for automatic page tracking.\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/UIViewController+Swizzling.swift",
+      "kind": "StringLiteral",
+      "offset": 1808,
+      "length": 23,
+      "value": "\"Evam-AutoPageTracker:\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/UIViewController+Swizzling.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2416,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 566,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "Array",
+      "offset": 855,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "Array",
+      "offset": 1112,
+      "length": 14,
+      "value": "[\"com.apple.\"]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1372,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "Array",
+      "offset": 1425,
+      "length": 2,
+      "value": "[]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/AutoPageTrackingConfig.swift",
+      "kind": "Array",
+      "offset": 1471,
+      "length": 14,
+      "value": "[\"com.apple.\"]"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/PageEventThrottler.swift",
+      "kind": "IntegerLiteral",
+      "offset": 656,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/PageEventThrottler.swift",
+      "kind": "FloatLiteral",
+      "offset": 797,
+      "length": 4,
+      "value": "0.15"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/InAppParamatersKeys.swift",
@@ -24342,112 +25639,112 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 358,
+      "offset": 405,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 389,
+      "offset": 740,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 410,
+      "offset": 761,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 437,
+      "offset": 788,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 482,
+      "offset": 833,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 521,
+      "offset": 872,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 557,
+      "offset": 908,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 593,
+      "offset": 944,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 977,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 655,
+      "offset": 1006,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "IntegerLiteral",
-      "offset": 691,
+      "offset": 1042,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "IntegerLiteral",
-      "offset": 726,
+      "offset": 1077,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "StringLiteral",
-      "offset": 766,
+      "offset": 1117,
       "length": 7,
       "value": "\"Evam:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 808,
+      "offset": 1159,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 854,
+      "offset": 1205,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Evam\/Evam.swift",
       "kind": "BooleanLiteral",
-      "offset": 1038,
+      "offset": 1389,
       "length": 5,
       "value": "false"
     },
@@ -24902,35 +26199,63 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 837,
+      "offset": 2112,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 874,
+      "offset": 2149,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 917,
+      "offset": 2192,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 975,
+      "offset": 2240,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 1013,
+      "offset": 2341,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3493,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3530,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3573,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3662,
       "length": 5,
       "value": "false"
     },
@@ -25075,9 +26400,16 @@
       "value": "\"Evam-FullScreenManager:\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/Event\/ActivityLifeCycle.swift",
+      "kind": "StringLiteral",
+      "offset": 629,
+      "length": 25,
+      "value": "\"Evam-ActivityLifeCycle:\""
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/SwiftUI\/PageLifecycle\/PageLifecycleTrackerModifier.swift",
       "kind": "StringLiteral",
-      "offset": 275,
+      "offset": 982,
       "length": 36,
       "value": "\"Evam-PageLifecycleTrackerModifier:\""
     },
@@ -25147,7 +26479,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/BaseView\/EvamViewController.swift",
       "kind": "StringLiteral",
-      "offset": 197,
+      "offset": 1803,
       "length": 26,
       "value": "\"Evam-EvamViewController:\""
     },

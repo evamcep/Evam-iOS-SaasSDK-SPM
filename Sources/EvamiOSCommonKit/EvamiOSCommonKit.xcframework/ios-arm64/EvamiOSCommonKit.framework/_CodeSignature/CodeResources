@@ -86,7 +86,7 @@
 		</data>
 		<key>Headers/EvamiOSCommonKit-Swift.h</key>
 		<data>
-		iQZHZzSsD7Us9ZN+hH5bxKOSK6Y=
+		7vZ+gRA1ABvFqFmaIbtM3JqZMRM=
 		</data>
 		<key>Headers/EvamiOSCommonKit.h</key>
 		<data>
@@ -110,7 +110,7 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		iU4yowGmRcHVVqjxejIWLhaAgTM=
+		Mfw5Zuka6cdX+eKBaBVEXwJqo4M=
 		</data>
 		<key>Lora-Italic-VariableFont_wght.ttf</key>
 		<data>
@@ -162,23 +162,23 @@
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		bnOg632elcLv/bCwAaQdxKSTfH8=
+		i5JNrw/9tG6qsYtfW8Xc7yBKZO0=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		MC3LUAqISAZxULGPnSohlYm+tuk=
+		po8On9X/3uFJv1PwXLn0KVIKjVo=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		2dGQqFuInoE8S1gw+H68YPwVS0g=
+		63yPLxP9DIGFSdz6Wr9Yot8NrLc=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		MC3LUAqISAZxULGPnSohlYm+tuk=
+		po8On9X/3uFJv1PwXLn0KVIKjVo=
 		</data>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		8FScTvLwilhiAPZ59Iye9Nbwjlg=
+		V1kRx0pZ4jlsw8VNR2PqVL9ZA/c=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -407,7 +407,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/tX0hcGjV3Ugiium5g2apwVga7rmZnxWgms1qK6XIlU=
+			74uzjjYkSyXw0jQ81B9UgLWj8Sz5moK2IfMcYTsU1sI=
 			</data>
 		</dict>
 		<key>Headers/EvamiOSCommonKit.h</key>
@@ -533,35 +533,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4W4ugR9MRECThqdiPGBLxhlvDIhRIG7lwhK4kxHFQ58=
+			LN6xRN5xGnxrWZBIYfzUhz9YrfCtu2OkgXhB3m3nf0U=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XNUQloJeU+M6+wgK3Ur7YiQS/5EwDv9n7qUu2EnTBCc=
+			z2/ygOnv4Wu47JBzfnmKcQodsEFrCpbdQMeedYXfUDk=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			PdUpFcaPcXhYoW52/nCYe0RM2n4OQUjSiRx26ymTAWY=
+			5FnDhSUaap4cj6WQnlLSkYeZalB3+L8eou6AhXe6Cbk=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			XNUQloJeU+M6+wgK3Ur7YiQS/5EwDv9n7qUu2EnTBCc=
+			z2/ygOnv4Wu47JBzfnmKcQodsEFrCpbdQMeedYXfUDk=
 			</data>
 		</dict>
 		<key>Modules/EvamiOSCommonKit.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			fOz5tLDcfZROvzJoPmOnqVb9LPCKLNQAzq1RzpKHqdE=
+			KdtHss+6HP45Ohh3b6tdGpiUdTghWBlIKHgRJZvikv8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

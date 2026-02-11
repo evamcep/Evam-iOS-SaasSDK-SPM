@@ -9,6 +9,7 @@ import DeveloperToolsSupport
 @_exported import EvamiOSCommonKit
 import Foundation
 import Network
+import ObjectiveC
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -347,6 +348,27 @@ public enum SendEventStatus : Swift.String {
     get
   }
 }
+@_hasMissingDesignatedInitializers final public class AutoPageTracker {
+  public static let shared: EvamiOSCommonKit.AutoPageTracker
+  @discardableResult
+  final public func start(with config: EvamiOSCommonKit.AutoPageTrackingConfig = .init()) -> Swift.Bool
+  final public func stop()
+  final public func resume()
+  final public func updateConfig(_ config: EvamiOSCommonKit.AutoPageTrackingConfig)
+  final public func addIgnoredClass(_ cls: Swift.AnyClass)
+  final public func removeIgnoredClass(_ cls: Swift.AnyClass)
+  @objc deinit
+}
+public struct AutoPageTrackingConfig {
+  public var isEnabled: Swift.Bool
+  public var ignoredControllerClasses: [Swift.AnyClass]
+  public var ignoredBundlePrefixes: [Swift.String]
+  public var ignorePredicate: ((UIKit.UIViewController) -> Swift.Bool)?
+  public init(isEnabled: Swift.Bool = true, ignoredControllerClasses: [Swift.AnyClass] = [], ignoredBundlePrefixes: [Swift.String] = ["com.apple."], ignorePredicate: ((UIKit.UIViewController) -> Swift.Bool)? = nil)
+}
+@objc public protocol EvamPageIdentifiable {
+  @objc var evamPageIdentifier: Swift.String { get }
+}
 public enum NetworkStatus : Swift.String {
   case online
   case offline
@@ -456,7 +478,9 @@ public enum TokenProviderType : Swift.String {
   }
 }
 public struct EvamInitConfig {
-  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool = true, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
+  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isAutoPageTrackingEnabled: Swift.Bool = true, autoPageTrackingConfig: EvamiOSCommonKit.AutoPageTrackingConfig? = nil, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
+  @available(*, deprecated, message: "Use the initializer with isAutoPageTrackingEnabled instead")
+  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
 }
 @_hasMissingDesignatedInitializers final public class FlutterFontRegistry {
   public static let shared: EvamiOSCommonKit.FlutterFontRegistry
@@ -470,7 +494,8 @@ public struct EvamInitConfig {
   final public func clearCache()
   @objc deinit
 }
-@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor @preconcurrency open class EvamViewController : UIKit.UIViewController {
+@objc @_inheritsConvenienceInitializers @available(*, deprecated, message: "Use automatic page tracking or call Evam.event.sendPageInEvent/sendPageOutEvent directly. See documentation for migration guide.")
+@_Concurrency.MainActor @preconcurrency open class EvamViewController : UIKit.UIViewController {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidLoad()
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)

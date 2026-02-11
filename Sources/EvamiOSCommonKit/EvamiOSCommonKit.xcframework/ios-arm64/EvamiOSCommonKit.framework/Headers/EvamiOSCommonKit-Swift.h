@@ -322,9 +322,64 @@ SWIFT_CLASS_NAMED("ConversionEntity")
 @property (nonatomic, copy) NSDate * _Nullable time;
 @end
 
+/// Protocol that allows view controllers to provide a custom page identifier.
+/// Implement this protocol in your view controller to override the automatic
+/// page name resolution with a custom identifier.
+/// Example:
+/// \code
+/// class MyViewController: UIViewController, EvamPageIdentifiable {
+///     var evamPageIdentifier: String {
+///         return "CustomPageName"
+///     }
+/// }
+///
+/// \endcode
+SWIFT_PROTOCOL("_TtP16EvamiOSCommonKit20EvamPageIdentifiable_")
+@protocol EvamPageIdentifiable
+/// The custom page identifier to use for tracking.
+@property (nonatomic, readonly, copy) NSString * _Nonnull evamPageIdentifier;
+@end
+
 @class NSBundle;
 @class NSCoder;
-SWIFT_CLASS("_TtC16EvamiOSCommonKit18EvamViewController")
+/// A base UIViewController that automatically sends page_in and page_out events.
+/// important:
+/// This class is <em>deprecated</em>. With automatic page tracking enabled by default,
+/// you no longer need to inherit from this class.
+/// <h2>Migration Guide</h2>
+/// <h3>If automatic tracking is enabled (default):</h3>
+/// Simply remove the inheritance from <code>EvamViewController</code>. Page events will be sent automatically.
+/// \code
+/// // Before (deprecated)
+/// class MyViewController: EvamViewController { }
+///
+/// // After
+/// class MyViewController: UIViewController { }
+///
+/// \endcode<h3>If automatic tracking is disabled:</h3>
+/// Use <code>Evam.event.sendPageInEvent()</code> and <code>Evam.event.sendPageOutEvent()</code> directly.
+/// \code
+/// class MyViewController: UIViewController {
+///     override func viewDidAppear(_ animated: Bool) {
+///         super.viewDidAppear(animated)
+///         Evam.event.sendPageInEvent(controller: self, pageName: "MyPage")
+///     }
+///
+///     override func viewWillDisappear(_ animated: Bool) {
+///         super.viewWillDisappear(animated)
+///         Evam.event.sendPageOutEvent(controller: self, pageName: "MyPage")
+///     }
+/// }
+///
+/// \endcode<h3>To customize the page name:</h3>
+/// Implement the <code>EvamPageIdentifiable</code> protocol:
+/// \code
+/// class MyViewController: UIViewController, EvamPageIdentifiable {
+///     var evamPageIdentifier: String { return "CustomPageName" }
+/// }
+///
+/// \endcode
+SWIFT_CLASS("_TtC16EvamiOSCommonKit18EvamViewController") SWIFT_DEPRECATED_MSG("Use automatic page tracking or call Evam.event.sendPageInEvent/sendPageOutEvent directly. See documentation for migration guide.")
 @interface EvamViewController : UIViewController
 - (void)viewDidLoad;
 - (void)viewWillAppear:(BOOL)animated;
