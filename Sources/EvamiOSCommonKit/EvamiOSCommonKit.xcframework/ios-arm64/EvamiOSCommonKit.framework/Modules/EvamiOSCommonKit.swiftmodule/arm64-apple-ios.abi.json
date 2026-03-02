@@ -23905,7 +23905,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.7.0\""
+      "value": "\"2.7.1\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -24393,14 +24393,14 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 301,
+      "offset": 468,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 365,
+      "offset": 532,
       "length": 4,
       "value": "true"
     },
