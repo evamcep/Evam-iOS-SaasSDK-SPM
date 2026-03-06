@@ -23741,15 +23741,57 @@
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 734,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 823,
+      "length": 1,
+      "value": "4"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 871,
+      "length": 3,
+      "value": "2.0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "FloatLiteral",
+      "offset": 916,
+      "length": 4,
+      "value": "12.0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 952,
+      "length": 2,
+      "value": "10"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "Array",
-      "offset": 758,
+      "offset": 1045,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1117,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 809,
+      "offset": 1160,
       "length": 5,
       "value": "false"
     },
@@ -23905,7 +23947,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.7.1\""
+      "value": "\"2.8.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -24393,14 +24435,14 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkManager.swift",
       "kind": "StringLiteral",
-      "offset": 468,
+      "offset": 296,
       "length": 16,
       "value": "\"NetworkMonitor\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 532,
+      "offset": 360,
       "length": 4,
       "value": "true"
     },
@@ -24536,6 +24578,13 @@
       "offset": 797,
       "length": 4,
       "value": "0.15"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/AutoPageTracking\/TopControllerFinder.swift",
+      "kind": "StringLiteral",
+      "offset": 263,
+      "length": 27,
+      "value": "\"Evam-TopControllerFinder:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/InAppParamatersKeys.swift",
@@ -26654,7 +26703,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1459,
+      "offset": 1524,
       "length": 4,
       "value": "true"
     },
