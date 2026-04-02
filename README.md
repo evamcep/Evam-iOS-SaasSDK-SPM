@@ -6,7 +6,7 @@ This SDK enables the integration of Evam's Saas solution into your iOS project. 
 
 ## 1. Prerequisites
 
-- **iOS 11.0** or later  
+- **iOS 12.0** or later
 
 ---
 
@@ -14,10 +14,10 @@ This SDK enables the integration of Evam's Saas solution into your iOS project. 
 
 ### 2.1. Add Package via Xcode
 
-1. Open your project in Xcode.  
-2. From the top menu, select **File > Add Packages...**  
+1. Open your project in Xcode.
+2. From the top menu, select **File > Add Packages...**
 3. In the dialog that appears, paste the following URL:  
-   `https://github.com/evamcep/Evam-iOS-SaasSDK-SPM.git`  
+   `https://github.com/evamcep/Evam-iOS-SaasSDK-SPM.git`
 4. Press `Enter` or wait for the package to appear in the list.
 
 ---
@@ -26,19 +26,19 @@ This SDK enables the integration of Evam's Saas solution into your iOS project. 
 
 #### To Use a Stable Release:
 
-- In the **Dependency Rule** section, select `Exact Version`.  
+- In the **Dependency Rule** section, select `Exact Version`.
 - For example: `1.2.0`
 
 #### To Use the Latest Development Version:
 
-- In the **Dependency Rule** section, select `Branch`.  
+- In the **Dependency Rule** section, select `Branch`.
 - Enter: `master`
 
 ---
 
 ### 2.3. Add the Product
 
-- Select the package named **EvamiOSCommonKit** from the list.  
+- Select the package named **EvamiOSCommonKit** from the list.
 - Click **Add Package** to add it to your project.
 
 ---
@@ -49,3 +49,4 @@ To use the SDK in your code, import it as shown below:
 
 ```swift
 import EvamiOSCommonKit
+```
