@@ -23947,7 +23947,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 7,
-      "value": "\"2.9.0\""
+      "value": "\"2.9.1\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
