@@ -23946,20 +23946,20 @@
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
       "offset": 156,
-      "length": 7,
-      "value": "\"2.9.1\""
+      "length": 8,
+      "value": "\"2.10.0\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
-      "offset": 203,
+      "offset": 204,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/Cloud\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
-      "offset": 412,
+      "offset": 413,
       "length": 26,
       "value": "\"EvamNotificationCategory\""
     },
