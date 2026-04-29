@@ -6,7 +6,7 @@ This SDK enables the integration of Evam's Saas solution into your iOS project. 
 
 ## 1. Prerequisites
 
-- **iOS 12.0** or later
+- **iOS 15.0** or later
 
 ---
 
