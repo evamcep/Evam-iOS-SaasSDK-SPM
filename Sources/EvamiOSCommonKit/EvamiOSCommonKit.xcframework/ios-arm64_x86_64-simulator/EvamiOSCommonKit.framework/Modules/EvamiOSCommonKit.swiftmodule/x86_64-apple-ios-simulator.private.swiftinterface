@@ -1,7 +1,7 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 6.1.2 effective-5.10 (swiftlang-6.1.2.1.2 clang-1700.0.13.5)
-// swift-module-flags: -target x86_64-apple-ios12.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EvamiOSCommonKit
-// swift-module-flags-ignorable: -no-verify-emitted-module-interface -interface-compiler-version 6.1.2
+// swift-compiler-version: Apple Swift version 6.2.4 effective-5.10 (swiftlang-6.2.4.1.4 clang-1700.6.4.2)
+// swift-module-flags: -target x86_64-apple-ios15.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -enable-experimental-feature DebugDescriptionMacro -enable-bare-slash-regex -module-name EvamiOSCommonKit
+// swift-module-flags-ignorable: -no-verify-emitted-module-interface -formal-cxx-interoperability-mode=off -interface-compiler-version 6.2.4
 import CoreData
 import CoreLocation
 import CoreText
@@ -27,7 +27,9 @@ public enum NotificationPermissionStatusType : Swift.String {
   case provisional
   case ephemeral
   case unknown
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -82,9 +84,15 @@ public class Reachability {
   public var connection: EvamiOSCommonKit.Reachability.Connection {
     get
   }
+  #if compiler(>=5.3) && $NonescapableTypes
   required public init(reachabilityRef: SystemConfiguration.SCNetworkReachability, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(hostname: Swift.String, queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   convenience public init(queueQoS: Dispatch.DispatchQoS = .default, targetQueue: Dispatch.DispatchQueue? = nil, notificationQueue: Dispatch.DispatchQueue? = .main) throws
+  #endif
   @objc deinit
 }
 extension EvamiOSCommonKit.Reachability {
@@ -171,7 +179,9 @@ public enum EvamEventType : Swift.String, Swift.CaseIterable {
   case logout
   case userProfileUpdated
   case userSdkProfileUpdated
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias AllCases = [EvamiOSCommonKit.EvamEventType]
   public typealias RawValue = Swift.String
   nonisolated public static var allCases: [EvamiOSCommonKit.EvamEventType] {
@@ -203,7 +213,9 @@ public enum InAppStatus : Swift.String, Swift.Codable {
   case used
   case unknown
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -272,7 +284,9 @@ public enum InAppType : Swift.String, Swift.Codable {
   case inAppEditor
   case unknown
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -286,7 +300,9 @@ public enum InAppShowType : Swift.String, Swift.Codable {
   case carousel
   case unknown
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -296,7 +312,9 @@ public enum EvamActionType : Swift.String, Swift.Codable {
   case deep, url
   case unknown
   public init(from decoder: any Swift.Decoder) throws
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -324,16 +342,28 @@ public class NotificationAppCommunicationItem : Swift.Codable {
 }
 @_hasMissingDesignatedInitializers public class EvamEvent {
   public static var shared: EvamiOSCommonKit.EvamEvent
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendAppBackgroundEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendAppForegroundEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendPageInEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendPageOutEvent(controller: UIKit.UIViewController?, pageName: Swift.String? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendCustomEvent(controller: UIKit.UIViewController? = nil, pageName: Swift.String? = nil, eventName: Swift.String, initialParameters: [Swift.String : Any]?, onActionRequired: @escaping EvamiOSCommonKit.OnActionRequired)
+  #endif
   public func sendPushNotificationDismissedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationNotificationClickedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationReceivedEvent(notification: [Swift.AnyHashable : Any])
   public func sendPushNotificationDeniedEvent(notification: [Swift.AnyHashable : Any])
+  #if compiler(>=5.3) && $NonescapableTypes
   public func sendLoginEvent(controller: UIKit.UIViewController? = nil, pageName: Swift.String? = nil, actorID: Swift.String, initialParameters: [Swift.String : Any]? = nil)
+  #endif
   public func sendApplicationErrorEvent(error: Foundation.NSError)
   public func sendLogoutEvent()
   public func sendUserProfileUpdateEvent(profile: EvamiOSCommonKit.UserProfileModel)
@@ -342,7 +372,9 @@ public class NotificationAppCommunicationItem : Swift.Codable {
 public enum SendEventStatus : Swift.String {
   case enabled
   case disabled
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -364,7 +396,9 @@ public struct AutoPageTrackingConfig {
   public var ignoredControllerClasses: [Swift.AnyClass]
   public var ignoredBundlePrefixes: [Swift.String]
   public var ignorePredicate: ((UIKit.UIViewController) -> Swift.Bool)?
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(isEnabled: Swift.Bool = true, ignoredControllerClasses: [Swift.AnyClass] = [], ignoredBundlePrefixes: [Swift.String] = ["com.apple."], ignorePredicate: ((UIKit.UIViewController) -> Swift.Bool)? = nil)
+  #endif
 }
 @objc public protocol EvamPageIdentifiable {
   @objc var evamPageIdentifier: Swift.String { get }
@@ -372,7 +406,9 @@ public struct AutoPageTrackingConfig {
 public enum NetworkStatus : Swift.String {
   case online
   case offline
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -382,21 +418,29 @@ public enum NetworkStatus : Swift.String {
   public var handledNotificationAction: EvamiOSCommonKit.AppCommunicationAction?
   public static var shared: EvamiOSCommonKit.NotificationManager
   public class func didReceive(_ request: UserNotifications.UNNotificationRequest, withContentHandler contentHandler: @escaping (UserNotifications.UNNotificationContent) -> Swift.Void)
+  #if compiler(>=5.3) && $NonescapableTypes
   public class func handleNotification(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String, actionCallback: @escaping (EvamiOSCommonKit.AppCommunicationAction?) -> ())
+  #endif
   public static func refreshNotificationPermissionStatusType()
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class EvamSliderPushHelper {
   public static func getImageList(notification: UserNotifications.UNNotification) -> [Swift.String]
   public static func getSize(_ collectionView: UIKit.UICollectionView, sizeForItemAt indexPath: Foundation.IndexPath, listCount: Swift.Int) -> CoreFoundation.CGSize
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func scrollNextItem(collectionView: UIKit.UICollectionView!, currentIndex: Swift.Int, listCount: Swift.Int) -> Swift.Int
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   public static func scrollPreviousItem(collectionView: UIKit.UICollectionView!, currentIndex: Swift.Int, listCount: Swift.Int) -> Swift.Int
+  #endif
   @objc deinit
 }
 public enum AuthTokenStatus : Swift.String {
   case notDetermined
   case authorized
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -408,16 +452,20 @@ public enum InitializeStatusType : Swift.String {
   case notInitialized
   case initializeFailed
   case offline
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 extension Swift.Collection {
+  #if compiler(>=5.3) && $NonescapableTypes
   public subscript(safe index: Self.Index) -> Self.Element? {
     get
   }
+  #endif
 }
 extension EvamiOSCommonKit.EvamInitResult : Swift.CustomStringConvertible {
   public var description: Swift.String {
@@ -437,50 +485,68 @@ extension EvamiOSCommonKit.EvamInitResult.FailureReason : Swift.CustomStringConv
 public enum LifeCycleEventStatus : Swift.String {
   case enabled
   case disabled
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 extension Swift.String {
+  #if compiler(>=5.3) && $NonescapableTypes
   public var url: Foundation.URL? {
     get
   }
+  #endif
 }
 public struct EvamDesignConfig {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(buttonCornerRadius: CoreFoundation.CGFloat? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class ConfigManager {
   final public func isInitialized() -> Swift.Bool
   final public func getInitializeStatus() -> EvamiOSCommonKit.InitializeStatusType
+  #if compiler(>=5.3) && $NonescapableTypes
   final public func getActorId() -> Swift.String?
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class Evam {
   public static var shared: EvamiOSCommonKit.Evam
   public static var event: EvamiOSCommonKit.EvamEvent
   final public let configManager: EvamiOSCommonKit.ConfigManager
+  #if compiler(>=5.3) && $NonescapableTypes
   public func initialize(configuration: EvamiOSCommonKit.EvamInitConfig, appGroupID: Swift.String? = nil, onSuccess: ((EvamiOSCommonKit.EvamInitResult.SuccessReason) -> Swift.Void)? = nil, onFailure: ((EvamiOSCommonKit.EvamInitResult.FailureReason) -> Swift.Void)? = nil)
+  #endif
   public func setPushToken(pushToken: Swift.String)
   public func getPushToken() -> Swift.String
   public func setApnsToken(deviceToken: Foundation.Data)
+  #if compiler(>=5.3) && $NonescapableTypes
   public func getActorID(appGroupID: Swift.String) -> Swift.String?
+  #endif
   @objc deinit
 }
 public enum TokenProviderType : Swift.String {
   case apns
   case firebase
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
   }
 }
 public struct EvamInitConfig {
+  #if compiler(>=5.3) && $NonescapableTypes
   public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isAutoPageTrackingEnabled: Swift.Bool = true, autoPageTrackingConfig: EvamiOSCommonKit.AutoPageTrackingConfig? = nil, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use the initializer with isAutoPageTrackingEnabled instead")
   public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
+  #endif
 }
 @_hasMissingDesignatedInitializers final public class FlutterFontRegistry {
   public static let shared: EvamiOSCommonKit.FlutterFontRegistry
@@ -500,8 +566,12 @@ public struct EvamInitConfig {
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewDidAppear(_ animated: Swift.Bool)
   @_Concurrency.MainActor @preconcurrency @objc override dynamic open func viewWillDisappear(_ animated: Swift.Bool)
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc override dynamic public init(nibName nibNameOrNil: Swift.String?, bundle nibBundleOrNil: Foundation.Bundle?)
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
   @_Concurrency.MainActor @preconcurrency @objc required dynamic public init?(coder: Foundation.NSCoder)
+  #endif
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class EvamSession {
@@ -517,7 +587,9 @@ public enum NetworkCapability : Swift.String {
   case wifi
   case cellular
   case none
+  #if compiler(>=5.3) && $NonescapableTypes
   public init?(rawValue: Swift.String)
+  #endif
   public typealias RawValue = Swift.String
   public var rawValue: Swift.String {
     get
@@ -533,44 +605,72 @@ public struct EvamLog {
   public func getFullMessage() -> Swift.String
   public func getFullMessageWithDate() -> Swift.String
 }
-@_inheritsConvenienceInitializers @objc(ConversionEntity) public class ConversionEntity : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+public typealias ConversionEntityCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(ConversionEntity) nonisolated public class ConversionEntity : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias ConversionEntityCoreDataPropertiesSet = Foundation.NSSet
 extension EvamiOSCommonKit.ConversionEntity {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<EvamiOSCommonKit.ConversionEntity>
-  @objc @NSManaged dynamic public var actorId: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var actorId: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var communicationCode: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var communicationCode: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var convertionName: Swift.String? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var convertionName: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var time: Foundation.Date? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var time: Foundation.Date? {
     @objc get
     @objc set
   }
+  #endif
 }
-@_inheritsConvenienceInitializers @objc(EventQueue) public class EventQueue : CoreData.NSManagedObject {
-  @objc override dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+extension EvamiOSCommonKit.ConversionEntity : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+public typealias EventQueueCoreDataClassSet = Foundation.NSSet
+@_inheritsConvenienceInitializers @objc(EventQueue) nonisolated public class EventQueue : CoreData.NSManagedObject {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc override nonisolated dynamic public init(entity: CoreData.NSEntityDescription, insertInto context: CoreData.NSManagedObjectContext?)
+  #endif
   @objc deinit
 }
+public typealias EventQueueCoreDataPropertiesSet = Foundation.NSSet
 extension EvamiOSCommonKit.EventQueue {
   @nonobjc public class func fetchRequest() -> CoreData.NSFetchRequest<EvamiOSCommonKit.EventQueue>
-  @objc @NSManaged dynamic public var event: Swift.String? {
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var event: Swift.String? {
     @objc get
     @objc set
   }
-  @objc @NSManaged dynamic public var timestamp: Foundation.Date? {
+  #endif
+  #if compiler(>=5.3) && $NonescapableTypes
+  @objc @NSManaged nonisolated dynamic public var timestamp: Foundation.Date? {
     @objc get
     @objc set
   }
+  #endif
 }
+extension EvamiOSCommonKit.EventQueue : Swift.Identifiable {
+  public typealias ID = Swift.ObjectIdentifier
+}
+public typealias EvamDatabaseFoundationFrameworkSet = Foundation.NSSet
+public typealias EvamDatabaseCoreDataFrameworkManagedObject = CoreData.NSManagedObject
 extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.Equatable {}
 extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.Hashable {}
 extension EvamiOSCommonKit.NotificationPermissionStatusType : Swift.RawRepresentable {}
