@@ -23872,57 +23872,64 @@
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
-      "kind": "BooleanLiteral",
-      "offset": 734,
-      "length": 5,
-      "value": "false"
-    },
-    {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 823,
+      "offset": 769,
       "length": 1,
       "value": "4"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 871,
+      "offset": 817,
       "length": 3,
       "value": "2.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "FloatLiteral",
-      "offset": 916,
+      "offset": 862,
       "length": 4,
       "value": "12.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 952,
+      "offset": 898,
       "length": 2,
       "value": "10"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "StringLiteral",
+      "offset": 1573,
+      "length": 33,
+      "value": "\"com.evam.sdk.inAppManager.state\""
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "Array",
-      "offset": 1045,
+      "offset": 1656,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1117,
+      "offset": 1730,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
       "kind": "BooleanLiteral",
-      "offset": 1160,
+      "offset": 1774,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/InAppManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1829,
       "length": 5,
       "value": "false"
     },
@@ -24078,7 +24085,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"2.10.0\""
+      "value": "\"2.11.1\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
