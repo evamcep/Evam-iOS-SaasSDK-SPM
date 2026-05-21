@@ -24085,7 +24085,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"2.11.1\""
+      "value": "\"2.11.2\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -24272,28 +24272,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1516,
+      "offset": 1566,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4212,
+      "offset": 4312,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 6558,
+      "offset": 7195,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 6580,
+      "offset": 7217,
       "length": 6,
       "value": "\"POST\""
     },
