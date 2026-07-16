@@ -23176,28 +23176,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3517,
+      "offset": 3537,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3548,
+      "offset": 3568,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 3572,
+      "offset": 3592,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/FullScreenViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 10283,
+      "offset": 10313,
       "length": 5,
       "value": "false"
     },
@@ -23995,28 +23995,42 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 1335,
+      "offset": 1397,
       "length": 36,
       "value": "\"com.evam.sdk.eventQueue.retryState\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "Dictionary",
-      "offset": 1433,
+      "offset": 1495,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "Dictionary",
-      "offset": 1503,
+      "offset": 1565,
       "length": 3,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "IntegerLiteral",
-      "offset": 1806,
+      "offset": 1918,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1957,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2144,
       "length": 3,
       "value": "300"
     },
@@ -24053,7 +24067,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"2.11.3\""
+      "value": "\"2.11.4\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -24348,6 +24362,41 @@
       "offset": 3700,
       "length": 2,
       "value": "30"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkRetryPolicy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4047,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkRetryPolicy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4068,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkRetryPolicy.swift",
+      "kind": "FloatLiteral",
+      "offset": 4093,
+      "length": 3,
+      "value": "0.2"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkRetryPolicy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4122,
+      "length": 2,
+      "value": "30"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/NetworkRetryPolicy.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5222,
+      "length": 1,
+      "value": "8"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
@@ -25185,28 +25234,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8815,
+      "offset": 8835,
       "length": 4,
       "value": "24.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8846,
+      "offset": 8866,
       "length": 4,
       "value": "17.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "FloatLiteral",
-      "offset": 8870,
+      "offset": 8890,
       "length": 4,
       "value": "10.0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Views\/InApp\/InAppViewController\/ModalPopupController.swift",
       "kind": "BooleanLiteral",
-      "offset": 14997,
+      "offset": 15017,
       "length": 5,
       "value": "false"
     },
@@ -26025,14 +26074,14 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppColorHelper.swift",
       "kind": "StringLiteral",
-      "offset": 447,
+      "offset": 327,
       "length": 30,
       "value": "\"Evam-CustomInAppColorHelper:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Helpers\/CustomInAppColorHelper.swift",
       "kind": "Dictionary",
-      "offset": 590,
+      "offset": 470,
       "length": 3,
       "value": "[]"
     },
