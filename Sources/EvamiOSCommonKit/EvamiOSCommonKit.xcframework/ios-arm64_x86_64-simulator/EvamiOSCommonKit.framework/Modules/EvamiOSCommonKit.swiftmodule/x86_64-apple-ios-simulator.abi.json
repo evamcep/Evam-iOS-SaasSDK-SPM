@@ -800,6 +800,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -18160,6 +18167,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -19179,6 +19193,7 @@
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -19187,7 +19202,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19236,6 +19254,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -19298,6 +19317,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -19401,6 +19421,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -19504,6 +19525,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -19607,6 +19629,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -19691,6 +19714,7 @@
         "moduleName": "EvamiOSCommonKit",
         "objc_name": "ConversionEntity",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -19788,6 +19812,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -19817,6 +19855,7 @@
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -19825,7 +19864,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -19834,6 +19876,7 @@
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -19842,7 +19885,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "TypeDecl",
@@ -19891,6 +19937,7 @@
             "declAttributes": [
               "Dynamic",
               "ObjC",
+              "Nonisolated",
               "Override"
             ],
             "init_kind": "Designated"
@@ -19953,6 +20000,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -20056,6 +20104,7 @@
             "moduleName": "EvamiOSCommonKit",
             "declAttributes": [
               "Dynamic",
+              "Nonisolated",
               "AccessControl",
               "NSManaged",
               "ObjC"
@@ -20140,6 +20189,7 @@
         "moduleName": "EvamiOSCommonKit",
         "objc_name": "EventQueue",
         "declAttributes": [
+          "Nonisolated",
           "AccessControl",
           "ObjC"
         ],
@@ -20237,6 +20287,20 @@
           },
           {
             "kind": "Conformance",
+            "name": "Sendable",
+            "printedName": "Sendable",
+            "usr": "s:s8SendableP",
+            "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
+          },
+          {
+            "kind": "Conformance",
             "name": "Identifiable",
             "printedName": "Identifiable",
             "children": [
@@ -20266,6 +20330,7 @@
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -20274,7 +20339,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -20283,6 +20351,7 @@
         "declKind": "Import",
         "moduleName": "EvamiOSCommonKit",
         "declAttributes": [
+          "AccessControl",
           "RawDocComment"
         ]
       },
@@ -20291,7 +20360,10 @@
         "name": "CoreData",
         "printedName": "CoreData",
         "declKind": "Import",
-        "moduleName": "EvamiOSCommonKit"
+        "moduleName": "EvamiOSCommonKit",
+        "declAttributes": [
+          "AccessControl"
+        ]
       },
       {
         "kind": "Import",
@@ -20682,6 +20754,13 @@
             "printedName": "_HasCustomAnyHashableRepresentation",
             "usr": "s:s35_HasCustomAnyHashableRepresentationP",
             "mangledName": "$ss35_HasCustomAnyHashableRepresentationP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           }
         ]
       },
@@ -20842,6 +20921,13 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "SendableMetatype",
+            "printedName": "SendableMetatype",
+            "usr": "s:s16SendableMetatypeP",
+            "mangledName": "$ss16SendableMetatypeP"
           },
           {
             "kind": "Conformance",
@@ -21423,6 +21509,7 @@
         "intro_watchOS": "6.0",
         "declAttributes": [
           "Preconcurrency",
+          "TypeEraser",
           "TypeEraser",
           "OriginallyDefinedIn",
           "OriginallyDefinedIn",
@@ -24067,7 +24154,7 @@
       "kind": "StringLiteral",
       "offset": 156,
       "length": 8,
-      "value": "\"2.11.4\""
+      "value": "\"2.11.5\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
@@ -26277,112 +26364,112 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 420,
+      "offset": 406,
       "length": 21,
       "value": "\"Evam-CustomInAppVC:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 783,
+      "offset": 769,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 1062,
+      "offset": 1048,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1126,
+      "offset": 1112,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1312,
+      "offset": 1298,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1369,
+      "offset": 1355,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1438,
+      "offset": 1424,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "StringLiteral",
-      "offset": 1619,
+      "offset": 1605,
       "length": 7,
       "value": "\"xmark\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 1742,
+      "offset": 1728,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2075,
+      "offset": 2064,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2310,
+      "offset": 2225,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2321,
+      "offset": 2236,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "FloatLiteral",
-      "offset": 2365,
+      "offset": 2280,
       "length": 3,
       "value": "0.6"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "IntegerLiteral",
-      "offset": 2409,
+      "offset": 2324,
       "length": 1,
       "value": "2"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 2965,
+      "offset": 2814,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/ViewController\/CustomInAppViewController.swift",
       "kind": "BooleanLiteral",
-      "offset": 3032,
+      "offset": 2881,
       "length": 5,
       "value": "false"
     },
