@@ -5,11 +5,13 @@
 import CoreData
 import CoreLocation
 import CoreText
+import CryptoKit
 import DeveloperToolsSupport
 @_exported import EvamiOSCommonKit
 import Foundation
 import Network
 import ObjectiveC
+import Security
 import Swift
 import SwiftUI
 import SystemConfiguration
@@ -541,12 +543,49 @@ public enum TokenProviderType : Swift.String {
 }
 public struct EvamInitConfig {
   #if compiler(>=5.3) && $NonescapableTypes
-  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isAutoPageTrackingEnabled: Swift.Bool = true, autoPageTrackingConfig: EvamiOSCommonKit.AutoPageTrackingConfig? = nil, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
+  public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isAutoPageTrackingEnabled: Swift.Bool = true, autoPageTrackingConfig: EvamiOSCommonKit.AutoPageTrackingConfig? = nil, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil, pinningConfig: EvamiOSCommonKit.EvamPinningConfig? = nil)
   #endif
   #if compiler(>=5.3) && $NonescapableTypes
   @available(*, deprecated, message: "Use the initializer with isAutoPageTrackingEnabled instead")
   public init(bundle: Foundation.Bundle, applicationName: Swift.String, actorId: Swift.String? = nil, domainUrl: Swift.String? = nil, authorization: Swift.String? = nil, clientId: Swift.String? = nil, clientSecret: Swift.String? = nil, topPadding: CoreFoundation.CGFloat? = 0, bottomPadding: CoreFoundation.CGFloat? = 0, applicationLifecyleAuto: Swift.Bool = true, isSendActivityLifeCycleEventEnabled: Swift.Bool, forceInitialize: Swift.Bool = false, designConfig: EvamiOSCommonKit.EvamDesignConfig? = nil)
   #endif
+}
+public struct EvamPinningConfig : Swift.Equatable {
+  public enum Mode : Swift.String {
+    case publicKey
+    case certificate
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public enum Scope : Swift.String {
+    case apiOnly
+    case all
+    #if compiler(>=5.3) && $NonescapableTypes
+    public init?(rawValue: Swift.String)
+    #endif
+    public typealias RawValue = Swift.String
+    public var rawValue: Swift.String {
+      get
+    }
+  }
+  public let mode: EvamiOSCommonKit.EvamPinningConfig.Mode
+  public let pinnedHosts: [Swift.String]
+  public let publicKeyHashes: [Swift.String]
+  public let certificates: [Foundation.Data]
+  public let trustPinnedPublicKeys: Swift.Bool
+  public let expiration: Foundation.Date?
+  public let enforced: Swift.Bool
+  public let scope: EvamiOSCommonKit.EvamPinningConfig.Scope
+  #if compiler(>=5.3) && $NonescapableTypes
+  public init(mode: EvamiOSCommonKit.EvamPinningConfig.Mode = .publicKey, pinnedHosts: [Swift.String], publicKeyHashes: [Swift.String] = [], certificates: [Foundation.Data] = [], trustPinnedPublicKeys: Swift.Bool = false, expiration: Foundation.Date? = nil, enforced: Swift.Bool = true, scope: EvamiOSCommonKit.EvamPinningConfig.Scope = .all)
+  #endif
+  public static func certificates(named names: [Swift.String], in bundle: Foundation.Bundle) -> [Foundation.Data]
+  public static func == (a: EvamiOSCommonKit.EvamPinningConfig, b: EvamiOSCommonKit.EvamPinningConfig) -> Swift.Bool
 }
 @_hasMissingDesignatedInitializers final public class FlutterFontRegistry {
   public static let shared: EvamiOSCommonKit.FlutterFontRegistry
@@ -713,6 +752,12 @@ extension EvamiOSCommonKit.LifeCycleEventStatus : Swift.RawRepresentable {}
 extension EvamiOSCommonKit.TokenProviderType : Swift.Equatable {}
 extension EvamiOSCommonKit.TokenProviderType : Swift.Hashable {}
 extension EvamiOSCommonKit.TokenProviderType : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Mode : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Mode : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Mode : Swift.RawRepresentable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Scope : Swift.Equatable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Scope : Swift.Hashable {}
+extension EvamiOSCommonKit.EvamPinningConfig.Scope : Swift.RawRepresentable {}
 extension EvamiOSCommonKit.NetworkCapability : Swift.Equatable {}
 extension EvamiOSCommonKit.NetworkCapability : Swift.Hashable {}
 extension EvamiOSCommonKit.NetworkCapability : Swift.RawRepresentable {}
