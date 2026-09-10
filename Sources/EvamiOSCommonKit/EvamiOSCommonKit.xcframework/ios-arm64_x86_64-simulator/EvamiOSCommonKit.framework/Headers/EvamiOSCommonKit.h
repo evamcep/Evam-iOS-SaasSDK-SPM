@@ -15,4 +15,6 @@ FOUNDATION_EXPORT const unsigned char EvamiOSCommonKitVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <EvamiOSCommonKit/PublicHeader.h>
 
+#import <EvamiOSCommonKit/EvamObjCExceptionCatcher.h>
+
 
