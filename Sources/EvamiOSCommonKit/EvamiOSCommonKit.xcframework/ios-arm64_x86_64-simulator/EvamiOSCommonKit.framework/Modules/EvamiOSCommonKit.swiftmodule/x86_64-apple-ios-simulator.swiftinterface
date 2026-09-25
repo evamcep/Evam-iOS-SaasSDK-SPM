@@ -424,6 +424,9 @@ public enum NetworkStatus : Swift.String {
   public class func handleNotification(userInfo: [Swift.AnyHashable : Any], actionIdentifier: Swift.String, actionCallback: @escaping (EvamiOSCommonKit.AppCommunicationAction?) -> ())
   #endif
   public static func refreshNotificationPermissionStatusType()
+  public static var evamCategories: Swift.Set<UserNotifications.UNNotificationCategory> {
+    get
+  }
   @objc deinit
 }
 @_hasMissingDesignatedInitializers public class EvamSliderPushHelper {
