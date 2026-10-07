@@ -5580,9 +5580,10 @@
             "usr": "s:16EvamiOSCommonKit16AppCommunicationC4fromACs7Decoder_p_tKcfc",
             "mangledName": "$s16EvamiOSCommonKit16AppCommunicationC4fromACs7Decoder_p_tKcfc",
             "moduleName": "EvamiOSCommonKit",
-            "implicit": true,
             "declAttributes": [
-              "Required"
+              "Required",
+              "AccessControl",
+              "RawDocComment"
             ],
             "throwing": true,
             "init_kind": "Designated"
@@ -25330,70 +25331,63 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 27306,
+      "offset": 30107,
       "length": 20,
       "value": "\"Evam-EventPayload:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 27364,
+      "offset": 30165,
       "length": 28,
       "value": "\"com.evam.sdk.event.payload\""
     },
     {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 525,
-      "length": 8610,
-      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"modal\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#ffffff\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 20,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"margin\": {\n        \"top\": 20,\n        \"right\": 0,\n        \"bottom\": 20,\n        \"left\": 0\n      },\n      \"fontFamily\": \"Roboto\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1763721586324-mkdlqo49i\",\n        \"columns\": [\n          {\n            \"id\": \"1763721586324-9nzua8vgj\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721620826-c0xr9ogid\",\n                \"type\": \"button\",\n                \"content\": \"Link Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"link\": \"https:\/\/www.google.com\",\n                \"fontSize\": 15,\n                \"fontWeight\": \"bold\",\n                \"borderRadius\": 20,\n                \"borderWidth\": 3,\n                \"borderStyle\": \"solid\",\n                \"borderColor\": \"#000000\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\",\n        \"maxContentHeightEnabled\": false\n      },\n      {\n        \"id\": \"1763721628080-5x2y74bkm\",\n        \"columns\": [\n          {\n            \"id\": \"1763721628080-ks3tigamm\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721651594-8nio24dep\",\n                \"type\": \"text\",\n                \"content\": \"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                }\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\",\n        \"maxContentHeightEnabled\": true,\n        \"maxContentHeight\": 50\n      },\n      {\n        \"id\": \"1763721656991-1qvv1pn7d\",\n        \"columns\": [\n          {\n            \"id\": \"1763721656991-4z28r6m9d\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1763721659935-sbbqk2yt8\",\n                \"type\": \"button\",\n                \"content\": \"Deep Link Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"deep link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 4,\n                \"link\": \"Evam:\/\/Menu?id=3\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:53.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+      "offset": 30323,
+      "length": 22,
+      "value": "\"<circular reference>\""
     },
     {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
       "kind": "StringLiteral",
-      "offset": 9239,
-      "length": 10239,
-      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"full-screen\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#fcfcfcF7\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 17,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"fontFamily\": \"Roboto, sans-serif\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"https:\/\/img.freepik.com\/premium-photo\/smooth-gradient-from-dark-blue-light-blue-white_1332213-19584.jpg\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1764249528277-6khkcg9o2\",\n        \"columns\": [\n          {\n            \"id\": \"1764249528277-6nuyowrd4\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249540891-thkr3kns2\",\n                \"type\": \"image\",\n                \"imageUrl\": \"https:\/\/cms.evam.com\/Uploads\/58a98fa2b3f542d4bee70d3ad79a2401.png\",\n                \"borderRadius\": 4,\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                }\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249583832-xod4ymtss\",\n        \"columns\": [\n          {\n            \"id\": \"1764249583832-fyi10y6mz\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249588284-orog112ts\",\n                \"type\": \"text\",\n                \"content\": \"Evam App\",\n                \"margin\": {\n                  \"top\": 20,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 50,\n                \"fontWeight\": \"bold\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 40,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249871833-5n63czfof\",\n        \"columns\": [\n          {\n            \"id\": \"1764249871833-q7784okec\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249875294-wb4xvtzzb\",\n                \"type\": \"text\",\n                \"content\": \"★ ★ ★ ★ ★ \",\n                \"margin\": {\n                  \"top\": 30,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 30\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249908715-2qhzftx46\",\n        \"columns\": [\n          {\n            \"id\": \"1764249908715-1q74b8s7v\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764249913154-k2ypah3j0\",\n                \"type\": \"text\",\n                \"content\": \"Best app for your company\",\n                \"margin\": {\n                  \"top\": 30,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"textAlign\": \"center\",\n                \"fontSize\": 29\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764249940702-9dgw8l9ih\",\n        \"columns\": [\n          {\n            \"id\": \"1764249940702-qz7cxdzjr\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1764251200547-wpaiytgfx\",\n                \"type\": \"button\",\n                \"content\": \"Download\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"none\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 100,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 15,\n                \"fontSize\": 15,\n                \"fontWeight\": \"bold\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 100,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:53.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+      "offset": 30380,
+      "length": 22,
+      "value": "\"<max depth exceeded>\""
     },
     {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 19586,
-      "length": 7024,
-      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"top-banner\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#ffffff\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 20,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"margin\": {\n        \"top\": 32,\n        \"right\": 16,\n        \"bottom\": 16,\n        \"left\": 16\n      },\n      \"fontFamily\": \"Roboto, sans-serif\",\n      \"fontData\": {\n        \"fontFamily\": \"Roboto, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Roboto\",\n          \"value\": \"Roboto, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"buttonLinkType\": \"NONE\",\n      \"buttonLink\": \"\",\n      \"heightPercentage\": 20\n    },\n    \"rows\": [\n      {\n        \"id\": \"1765782635418-e6t8y1oyl\",\n        \"columns\": [\n          {\n            \"id\": \"1765782635418-zoxc090sx\",\n            \"width\": 100,\n            \"items\": [\n              {\n                \"id\": \"1765782661387-w3z3pmy1z\",\n                \"type\": \"button\",\n                \"content\": \"Send Button\",\n                \"backgroundColor\": \"#FE5000\",\n                \"color\": \"#FFFFFF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"none\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 12,\n                \"fontWeight\": \"normal\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1765782659265-a7sm6h862\",\n        \"columns\": [\n          {\n            \"id\": \"1765782659265-ddcrsjt93\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1765782705390-duriydhrb\",\n                \"type\": \"text\",\n                \"content\": \"leftt\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"500\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1765782689152-2yy5q7xst\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1765782721566-lswm3r27d\",\n                \"type\": \"text\",\n                \"content\": \"rightt\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"500\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:22.243Z\",\n    \"totalItems\": 2\n  }\n}\""
-    },
-    {
-      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/CustomInAppTestHelper.swift",
-      "kind": "StringLiteral",
-      "offset": 26667,
-      "length": 8122,
-      "value": "\"{\n  \"version\": \"1.0\",\n  \"content\": {\n    \"displayType\": \"bottom-banner\",\n    \"bodySettings\": {\n      \"backgroundColor\": \"#4e371dF7\",\n      \"padding\": {\n        \"top\": 20,\n        \"right\": 17,\n        \"bottom\": 20,\n        \"left\": 20\n      },\n      \"fontFamily\": \"Roboto\",\n      \"fontData\": {\n        \"fontFamily\": \"Raleway, sans-serif\",\n        \"fontData\": {\n          \"name\": \"Raleway\",\n          \"value\": \"Raleway, sans-serif\",\n          \"category\": \"sans-serif\",\n          \"variants\": [\n            {\n              \"weight\": \"100\",\n              \"style\": \"normal\",\n              \"display\": \"Thin\"\n            },\n            {\n              \"weight\": \"100\",\n              \"style\": \"italic\",\n              \"display\": \"Thin Italic\"\n            },\n            {\n              \"weight\": \"200\",\n              \"style\": \"normal\",\n              \"display\": \"Extra Light\"\n            },\n            {\n              \"weight\": \"200\",\n              \"style\": \"italic\",\n              \"display\": \"Extra Light Italic\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"normal\",\n              \"display\": \"Light\"\n            },\n            {\n              \"weight\": \"300\",\n              \"style\": \"italic\",\n              \"display\": \"Light Italic\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"normal\",\n              \"display\": \"Regular\"\n            },\n            {\n              \"weight\": \"400\",\n              \"style\": \"italic\",\n              \"display\": \"Regular Italic\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"normal\",\n              \"display\": \"Medium\"\n            },\n            {\n              \"weight\": \"500\",\n              \"style\": \"italic\",\n              \"display\": \"Medium Italic\"\n            },\n            {\n              \"weight\": \"600\",\n              \"style\": \"normal\",\n              \"display\": \"Semi Bold\"\n            },\n            {\n              \"weight\": \"600\",\n              \"style\": \"italic\",\n              \"display\": \"Semi Bold Italic\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"normal\",\n              \"display\": \"Bold\"\n            },\n            {\n              \"weight\": \"700\",\n              \"style\": \"italic\",\n              \"display\": \"Bold Italic\"\n            },\n            {\n              \"weight\": \"800\",\n              \"style\": \"normal\",\n              \"display\": \"Extra Bold\"\n            },\n            {\n              \"weight\": \"800\",\n              \"style\": \"italic\",\n              \"display\": \"Extra Bold Italic\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"normal\",\n              \"display\": \"Black\"\n            },\n            {\n              \"weight\": \"900\",\n              \"style\": \"italic\",\n              \"display\": \"Black Italic\"\n            }\n          ]\n        },\n        \"isCustomFont\": false\n      },\n      \"fontSize\": 16,\n      \"fontWeight\": \"normal\",\n      \"textColor\": \"#000000\",\n      \"textAlignment\": \"left\",\n      \"contentAlignment\": \"top-to-bottom\",\n      \"backgroundImage\": \"https:\/\/subsonic.com\/c\/23-category_default\/black-friday.jpg\"\n    },\n    \"rows\": [\n      {\n        \"id\": \"1764271179763-z8797g3mi\",\n        \"columns\": [\n          {\n            \"id\": \"1764271179763-kpkns4j8r\",\n            \"width\": 50,\n            \"items\": [],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1764271185879-78u4qrduk\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1764271190872-rf1kgseah\",\n                \"type\": \"text\",\n                \"content\": \"Tap to claim your Black Friday coupon\n\",\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 10\n                },\n                \"fontSize\": 20,\n                \"fontWeight\": \"bold\",\n                \"color\": \"#FFFFFF\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 12\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      },\n      {\n        \"id\": \"1764271210324-utzkj85qe\",\n        \"columns\": [\n          {\n            \"id\": \"1764271210324-otn4sm9tw\",\n            \"width\": 50,\n            \"items\": [],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          },\n          {\n            \"id\": \"1764271211969-uql9o954o\",\n            \"width\": 50,\n            \"items\": [\n              {\n                \"id\": \"1764271214466-y87av60k8\",\n                \"type\": \"button\",\n                \"content\": \"Coupon\",\n                \"backgroundColor\": \"#ff0000FF\",\n                \"color\": \"#000000FF\",\n                \"textAlign\": \"center\",\n                \"linkType\": \"link\",\n                \"padding\": {\n                  \"top\": 8,\n                  \"right\": 16,\n                  \"bottom\": 8,\n                  \"left\": 16\n                },\n                \"margin\": {\n                  \"top\": 0,\n                  \"right\": 0,\n                  \"bottom\": 8,\n                  \"left\": 0\n                },\n                \"borderRadius\": 15,\n                \"borderWidth\": 3,\n                \"borderStyle\": \"dotted\",\n                \"fontSize\": 20,\n                \"fontWeight\": \"bold\",\n                \"borderColor\": \"#000000FF\",\n                \"link\": \"https:\/\/www.evam.com\"\n              }\n            ],\n            \"padding\": {\n              \"top\": 0,\n              \"right\": 8,\n              \"bottom\": 0,\n              \"left\": 8\n            },\n            \"margin\": {\n              \"top\": 0,\n              \"right\": 0,\n              \"bottom\": 0,\n              \"left\": 0\n            }\n          }\n        ],\n        \"padding\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"margin\": {\n          \"top\": 0,\n          \"right\": 0,\n          \"bottom\": 0,\n          \"left\": 0\n        },\n        \"contentAlignment\": \"top-to-bottom\"\n      }\n    ]\n  },\n  \"metadata\": {\n    \"createdAt\": \"2025-12-15T07:12:22.243Z\",\n    \"totalItems\": 2\n  }\n}\""
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Queue\/QueueManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 30429,
+      "length": 2,
+      "value": "32"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
       "offset": 156,
-      "length": 8,
-      "value": "\"2.11.9\""
+      "length": 9,
+      "value": "\"2.11.10\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
-      "offset": 204,
+      "offset": 205,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
-      "offset": 626,
+      "offset": 627,
       "length": 26,
       "value": "\"EvamNotificationCategory\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Constants\/LocalStatusConstant.swift",
       "kind": "StringLiteral",
-      "offset": 805,
+      "offset": 806,
       "length": 32,
       "value": "\"EvamNotificationSliderCategory\""
     },
@@ -25575,21 +25569,28 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 4942,
+      "offset": 2307,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
+      "kind": "BooleanLiteral",
+      "offset": 5373,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 8090,
+      "offset": 8521,
       "length": 5,
       "value": "\"GET\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/ServiceClient.swift",
       "kind": "StringLiteral",
-      "offset": 8112,
+      "offset": 8543,
       "length": 6,
       "value": "\"POST\""
     },
@@ -25617,35 +25618,35 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/AuthTokenCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 2037,
+      "offset": 2165,
       "length": 23,
       "value": "\"Evam-AuthCoordinator:\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/AuthTokenCoordinator.swift",
       "kind": "StringLiteral",
-      "offset": 2172,
+      "offset": 2300,
       "length": 36,
       "value": "\"com.evam.sdk.authCoordinator.state\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/AuthTokenCoordinator.swift",
       "kind": "BooleanLiteral",
-      "offset": 2294,
+      "offset": 2422,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/AuthTokenCoordinator.swift",
       "kind": "Array",
-      "offset": 2350,
+      "offset": 2478,
       "length": 2,
       "value": "[]"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/AuthTokenCoordinator.swift",
       "kind": "IntegerLiteral",
-      "offset": 2391,
+      "offset": 2519,
       "length": 1,
       "value": "0"
     },
@@ -25722,140 +25723,140 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 2199,
+      "offset": 3938,
       "length": 7,
       "value": "\"READY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 2223,
+      "offset": 3962,
       "length": 6,
       "value": "\"USED\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5099,
+      "offset": 7152,
       "length": 8,
       "value": "\"MINUTE\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5124,
+      "offset": 7177,
       "length": 6,
       "value": "\"HOUR\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5146,
+      "offset": 7199,
       "length": 5,
       "value": "\"DAY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5168,
+      "offset": 7221,
       "length": 6,
       "value": "\"WEEK\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5192,
+      "offset": 7245,
       "length": 7,
       "value": "\"MONTH\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5283,
+      "offset": 7336,
       "length": 7,
       "value": "\"POPUP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5309,
+      "offset": 7362,
       "length": 8,
       "value": "\"SURVEY\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5336,
+      "offset": 7389,
       "length": 8,
       "value": "\"BANNER\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5365,
+      "offset": 7418,
       "length": 10,
       "value": "\"CAROUSEL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5399,
+      "offset": 7452,
       "length": 15,
       "value": "\"IN_APP_EDITOR\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5760,
+      "offset": 7813,
       "length": 13,
       "value": "\"FULL_SCREEN\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5791,
+      "offset": 7844,
       "length": 7,
       "value": "\"MODAL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5814,
+      "offset": 7867,
       "length": 5,
       "value": "\"TOP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5838,
+      "offset": 7891,
       "length": 8,
       "value": "\"BOTTOM\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 5867,
+      "offset": 7920,
       "length": 10,
       "value": "\"CAROUSEL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 6249,
+      "offset": 8302,
       "length": 6,
       "value": "\"DEEP\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "StringLiteral",
-      "offset": 6263,
+      "offset": 8316,
       "length": 5,
       "value": "\"URL\""
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/AppCommunication\/AppCommunication.swift",
       "kind": "BooleanLiteral",
-      "offset": 7124,
+      "offset": 9177,
       "length": 5,
       "value": "false"
     },
@@ -26750,8 +26751,15 @@
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/CoreData\/CoreDataManager.swift",
+      "kind": "IntegerLiteral",
+      "offset": 14120,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/CoreData\/CoreDataManager.swift",
       "kind": "Array",
-      "offset": 21265,
+      "offset": 23113,
       "length": 8,
       "value": "[11, 26]"
     },
@@ -27479,7 +27487,7 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Core\/InApp\/CustomInApp\/Components\/CustomInAppButtonComponent.swift",
       "kind": "IntegerLiteral",
-      "offset": 14286,
+      "offset": 14641,
       "length": 1,
       "value": "8"
     },
@@ -27948,63 +27956,63 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2398,
+      "offset": 2641,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 2435,
+      "offset": 2678,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2478,
+      "offset": 2721,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2526,
+      "offset": 2769,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 2627,
+      "offset": 2870,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3871,
+      "offset": 4114,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "IntegerLiteral",
-      "offset": 3908,
+      "offset": 4151,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 3951,
+      "offset": 4194,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Utilities\/Models\/Evam\/EvamInitConfig.swift",
       "kind": "BooleanLiteral",
-      "offset": 4040,
+      "offset": 4283,
       "length": 5,
       "value": "false"
     },
@@ -28044,6 +28052,13 @@
       "value": "\"Evam-Pinning:\""
     },
     {
+      "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/EvamPinningSessionDelegate.swift",
+      "kind": "BooleanLiteral",
+      "offset": 703,
+      "length": 5,
+      "value": "false"
+    },
+    {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/EvamHTTP.swift",
       "kind": "StringLiteral",
       "offset": 673,
@@ -28053,21 +28068,21 @@
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/EvamHTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 5621,
+      "offset": 5787,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/EvamHTTP.swift",
       "kind": "IntegerLiteral",
-      "offset": 6476,
+      "offset": 6642,
       "length": 2,
       "value": "15"
     },
     {
       "filePath": "\/Users\/sametyabalak\/Documents\/EvamWorkspace\/EvamX\/Mobile\/iOS\/evam-saas-IOS\/EvamiOSCommonKit\/EvamiOSCommonKit\/Service\/Network\/EvamHTTP.swift",
       "kind": "StringLiteral",
-      "offset": 7734,
+      "offset": 7900,
       "length": 15,
       "value": "\"Evam-Pinning:\""
     },

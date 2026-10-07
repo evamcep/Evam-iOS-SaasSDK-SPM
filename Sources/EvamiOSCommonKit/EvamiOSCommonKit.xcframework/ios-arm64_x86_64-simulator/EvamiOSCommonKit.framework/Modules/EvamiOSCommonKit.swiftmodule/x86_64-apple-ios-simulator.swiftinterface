@@ -206,9 +206,9 @@ public struct UserProfileModel : Swift.Codable {
   public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class AppCommunication : Swift.Codable {
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public enum InAppStatus : Swift.String, Swift.Codable {
   case ready
