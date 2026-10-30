@@ -233,13 +233,13 @@ public class AppCommunicationConfiguration : Swift.Codable {
   public var wifiStatusEnabled: Swift.Bool?
   public var diskCapacityEnabled: Swift.Bool?
   public var locationEnabled: Swift.Bool?
-  public var apiTriggerEvent: Swift.String
+  public var apiTriggerEvent: Swift.String?
   public var apiRequestRetryCount: Swift.Int?
   public var apiRequestTimeout: Swift.Int?
   public var conversionTimeout: Swift.Int?
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 public class BlockEvent : Swift.Codable {
   public var name: Swift.String
@@ -250,9 +250,9 @@ public class BlockEvent : Swift.Codable {
 @_hasMissingDesignatedInitializers public class AppCommunicationAction : Swift.Codable {
   public var link: Swift.String?
   public var type: EvamiOSCommonKit.EvamActionType?
+  required public init(from decoder: any Swift.Decoder) throws
   @objc deinit
   public func encode(to encoder: any Swift.Encoder) throws
-  required public init(from decoder: any Swift.Decoder) throws
 }
 @_hasMissingDesignatedInitializers public class AppCommunicationButton : Swift.Codable {
   public var id: Swift.String?
